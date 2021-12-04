@@ -50,7 +50,7 @@ font-size: 40px;
     font-size: 34px;
     cursor: pointer;
     background-color: #FD7C16;
-    color: white;
+    color: #000000;
     padding: 10px 40px;
     border: none;
 }
@@ -65,7 +65,7 @@ nav{
     color: #BE1931;
 }
 .nav-link, .nav-link i, .nav-link:hover, .nav-link:active{
-    color: white;
+    color: #000000;
     font-size: 26px;
 }
 .dropdown-item:hover {
@@ -92,20 +92,32 @@ button:focus{
     outline: unset;
 }
 .welcome{
-    margin-top: 74px;
+    margin-top: 20px;
 }
 .add_title{
-    margin-top: 117px;
+    margin-top: 43px;
 }
-.owl-carousel .owl-item img{
-    height: 370px;
+.customers h2{
+    padding-top: 24px;
+    padding-bottom: 38px;
+}
+.image_padding {
+    padding-top: 50px;
 }
 @media screen and (max-width: 300px){
     .nav-link{
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+    .owl-item {
+        height: 150px;
+    }
 }
+/*@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}*/
 .customers{
     direction: ltr;
 }
