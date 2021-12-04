@@ -3,7 +3,7 @@
     element.classList.toggle("openSidebar");
 }*/
 function openNav() {
-    document.getElementById("mySidebar").style.width = "198px";
+    document.getElementById("mySidebar").style.width = "220px";
     //document.getElementById("main").style.marginRight = "250px";
 }
 
