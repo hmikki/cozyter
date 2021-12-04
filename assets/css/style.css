@@ -109,7 +109,7 @@ h2{
     padding-top: 24px;
     padding-bottom: 38px;
 }
-.item img{
+.customers .row div img{
     height: 370px;
     margin: 0px 6px;
 }
@@ -132,7 +132,7 @@ h2{
     }
 }
 @media screen and (max-width: 992px){
-    .item img{
+    .customers .row div img{
         height: 150px;
     }
 }
