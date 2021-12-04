@@ -79,6 +79,9 @@ footer{
 footer p{
     padding-top: 25px;
 }
+.dropdown-menu{
+    min-width: 8rem;
+}
 @media screen and (max-width: 300px){
     .nav-link{
         padding-right: 0px !important;
