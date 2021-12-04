@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+*{
+    font-family: 'Droid Arabic Kufi', serif;
+    word-spacing: 1px;
+}
+body{
+    margin: 0;
+    text-align: right;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.profile{
+font-size: 40px;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+}
+
+.openbtn {
+    font-size: 34px;
+    cursor: pointer;
+    background-color: #ed8337;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+#main {
+    transition: margin-right .5s;
+    padding: 16px;
+}
+nav{
+    background: #ed8337;
+}
+.red{
+    color: red;
+}
+.nav-link, .nav-link i, .nav-link:hover, .nav-link:active{
+    color: white;
+    font-size: 34px;
+}
+.dropdown-item:hover {
+    background-color: #ed8337;
+}
