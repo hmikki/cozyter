@@ -42,6 +42,7 @@ svg.feather{
     color: #818181;
     padding-bottom: 16px;
 }
+
 .openSidebar{
     width: 250px;
 }
@@ -49,7 +50,9 @@ svg.feather{
     color: #f1f1f1;
     background-color: #FD7C16;
 }
-
+.profile:hover{
+    background-color:unset;
+}
 .sidebar .closebtn {
     position: absolute;
     top: 0;
