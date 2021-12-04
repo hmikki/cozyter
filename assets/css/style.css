@@ -25,7 +25,7 @@ body{
     text-align: center;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -110,7 +110,7 @@ h2{
     padding-top: 24px;
     padding-bottom: 38px;
 }
-.customers .row div img{
+.item img{
     height: 370px;
     margin: 0px 6px;
 }
@@ -133,7 +133,7 @@ h2{
     }
 }
 @media screen and (max-width: 992px){
-    .customers .row div img{
+    .item img{
         height: 150px;
     }
 }
