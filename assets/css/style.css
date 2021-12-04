@@ -119,7 +119,7 @@ h2{
     margin: 0px 6px;
 }
 .owl-carousel, .owl-carousel .owl-item{
-    position: unset;
+    position: unset !important;
 }
 .nav-link{
     padding: 0.5rem 0rem;
