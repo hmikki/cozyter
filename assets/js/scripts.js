@@ -11,7 +11,7 @@ $( document ).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:5000,
         autoplayHoverPause:true,
         responsive:{
             0:{
