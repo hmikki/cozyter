@@ -47,11 +47,11 @@ font-size: 40px;
     font-size: 40px;
 }
 .openbtn {
-    font-size: 34px;
+    font-size: 40px;
     cursor: pointer;
     background-color: #FD7C16;
     color: #000000;
-    padding: 5px 25px;
+    padding: 0px 25px;
     border: none;
 }
 .dropdown-divider.line{
