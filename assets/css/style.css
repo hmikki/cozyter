@@ -66,8 +66,22 @@ nav{
 }
 .nav-link, .nav-link i, .nav-link:hover, .nav-link:active{
     color: white;
-    font-size: 34px;
+    font-size: 26px;
 }
 .dropdown-item:hover {
     background-color: #ed8337;
+}
+footer{
+    background-color: #ed8337;
+    color: white;
+    height: 70px;
+}
+footer p{
+    padding-top: 25px;
+}
+@media screen and (max-width: 300px){
+    .nav-link{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
 }
