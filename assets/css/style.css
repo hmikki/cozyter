@@ -35,7 +35,8 @@ font-size: 40px;
 }
 
 .sidebar a:hover {
-    color: #24282c;
+    color: #f1f1f1;
+    background-color: #ed8337;
 }
 
 .sidebar .closebtn {
