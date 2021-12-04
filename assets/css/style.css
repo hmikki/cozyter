@@ -50,8 +50,8 @@ svg.feather{
     color: #f1f1f1;
     background-color: #FD7C16;
 }
-.profile:hover{
-    background-color:unset;
+.sidebar a.first:hover{
+    background-color: white;
 }
 .sidebar .closebtn {
     position: absolute;
