@@ -94,10 +94,10 @@ nav{
 footer{
     background-color: #FD7C16;
     color: white;
-    height: 50px;
+    height: 70px;
 }
 footer p{
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .dropdown-menu{
     min-width: 8rem;
