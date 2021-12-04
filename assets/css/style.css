@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {font-family: "Cocon Next Arabic"; src: url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot"); src: url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff") format("woff"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.svg#Cocon Next Arabic") format("svg"); }
 *{
-    font-family: 'Droid Arabic Kufi', serif;
+    font-family: 'Cocon Next Arabic';
     word-spacing: 1px;
 }
 body{
@@ -36,7 +37,7 @@ font-size: 40px;
 
 .sidebar a:hover {
     color: #f1f1f1;
-    background-color: #ed8337;
+    background-color: #FD7C16;
 }
 
 .sidebar .closebtn {
@@ -45,35 +46,33 @@ font-size: 40px;
     left: 0;
     font-size: 40px;
 }
-
 .openbtn {
     font-size: 34px;
     cursor: pointer;
-    background-color: #ed8337;
+    background-color: #FD7C16;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 40px;
     border: none;
 }
 
 #main {
     transition: margin-right .5s;
-    padding: 16px;
 }
 nav{
-    background: #ed8337;
+    background: #FD7C16;
 }
 .red{
-    color: red;
+    color: #BE1931;
 }
 .nav-link, .nav-link i, .nav-link:hover, .nav-link:active{
     color: white;
     font-size: 26px;
 }
 .dropdown-item:hover {
-    background-color: #ed8337;
+    background-color: #FD7C16;
 }
 footer{
-    background-color: #ed8337;
+    background-color: #FD7C16;
     color: white;
     height: 70px;
 }
@@ -83,9 +82,45 @@ footer p{
 .dropdown-menu{
     min-width: 8rem;
 }
+.dropdown-toggle::after{
+    display: none;
+}
+a.closebtn:hover{
+    background-color: unset;
+}
+button:focus{
+    outline: unset;
+}
+.welcome{
+    margin-top: 74px;
+}
+.add_title{
+    margin-top: 117px;
+}
+.owl-carousel .owl-item img{
+    height: 370px;
+}
 @media screen and (max-width: 300px){
     .nav-link{
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+}
+.customers{
+    direction: ltr;
+}
+
+.splash{
+    background-color: #FD7C16;
+}
+.splash .row{
+    height: 100vh;
+}
+.splash .row img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
 }

@@ -7,3 +7,22 @@ function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     //document.getElementById("main").style.marginRight= "0";
 }
+$( document ).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        responsive:{
+            0:{
+                items:3
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            },
+            1200:{
+                items:3
+            }
+        }
+    });
+});
