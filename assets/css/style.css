@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-@font-face {font-family: "Cocon Next Arabic"; src: url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot"); src: url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff") format("woff"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.svg#Cocon Next Arabic") format("svg"); }
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {font-family: "Cocon Next Arabic"; src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot"); src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.svg#Cocon Next Arabic") format("svg"); }
 *{
     font-family: 'Cocon Next Arabic';
     word-spacing: 1px;
