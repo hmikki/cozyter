@@ -1,3 +1,7 @@
+/*function openNav() {
+    var element = document.getElementById("mySidebar");
+    element.classList.toggle("openSidebar");
+}*/
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     //document.getElementById("main").style.marginRight = "250px";
