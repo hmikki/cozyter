@@ -61,6 +61,10 @@ font-size: 40px;
 #main {
     transition: margin-right .5s;
 }
+svg.feather.feather-align-justify {
+    height: 35px !important;
+    width: 35px !important;
+}
 nav{
     background: #FD7C16;
 }
