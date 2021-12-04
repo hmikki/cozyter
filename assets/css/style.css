@@ -51,10 +51,13 @@ font-size: 40px;
     cursor: pointer;
     background-color: #FD7C16;
     color: #000000;
-    padding: 10px 40px;
+    padding: 5px 25px;
     border: none;
 }
-
+.dropdown-divider{
+    margin: 29px 30px 0px 30px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.29);
+}
 #main {
     transition: margin-right .5s;
 }
@@ -92,9 +95,11 @@ button:focus{
     outline: unset;
 }
 .welcome{
+    font-size: 16px !important;
     margin-top: 20px;
 }
 .add_title{
+    font-size: 24px!important;
     margin-top: 43px;
 }
 .customers h2{
@@ -107,6 +112,12 @@ button:focus{
 }
 .owl-carousel, .owl-carousel .owl-item{
     position: unset;
+}
+.nav-link{
+    padding: 0.5rem 0rem;
+}
+#main .row{
+    align-items: end;
 }
 @media screen and (max-width: 300px){
     .nav-link{
