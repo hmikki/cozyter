@@ -21,7 +21,7 @@ body{
     background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .sidebar a {
@@ -43,7 +43,7 @@ svg.feather{
 .profile{
     font-size: 55px;
     color: #818181;
-    padding-bottom: 16px;
+    padding-bottom: 20px;
 }
 
 .openSidebar{
