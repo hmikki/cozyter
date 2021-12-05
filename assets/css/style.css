@@ -1,189 +1,395 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-@font-face {font-family: "Cocon Next Arabic"; src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot"); src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.svg#Cocon Next Arabic") format("svg"); }
-*{
-    font-family: 'Cocon Next Arabic';
-    word-spacing: 1px;
+@font-face {
+  font-family: "Cocon Next Arabic";
+  src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot");
+  src: url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4ce5fad2df30ef4ed5ee61f579ee24b7.svg#Cocon Next Arabic")
+      format("svg");
 }
-html, body{
-    height: 100%;
+* {
+  font-family: "Cocon Next Arabic";
+  word-spacing: 1px;
 }
-body{
-    margin: 0;
-    text-align: right;
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  text-align: right;
 }
 .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #ffffff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 25px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 25px;
 }
 
 .sidebar a {
-    text-align: center;
-    padding: 2px 8px 2px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #000000;
-    display: block;
-    transition: 0.3s;
+  text-align: center;
+  padding: 2px 8px 2px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
 }
-.sidebar a i, svg.feather{
-    padding-left: 8px;
+.sidebar a i,
+svg.feather {
+  padding-left: 8px;
 }
-svg.feather{
-    width: 24px;
-    height: 24px;
+svg.feather {
+  width: 24px;
+  height: 24px;
 }
-.profile{
-    font-size: 55px;
-    color: #818181;
-    padding-bottom: 20px;
+.profile {
+  font-size: 55px;
+  color: #818181;
+  padding-bottom: 20px;
 }
 
-.openSidebar{
-    width: 250px;
+.openSidebar {
+  width: 250px;
 }
 .sidebar a:hover {
-    color: #f1f1f1;
-    background-color: #FD7C16;
+  color: #f1f1f1;
+  background-color: #fd7c16;
 }
-.sidebar a.first:hover{
-    background-color: white;
+.sidebar a.first:hover {
+  background-color: white;
 }
 .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
 }
 .openbtn {
-    font-size: 40px;
-    cursor: pointer;
-    background-color: #FD7C16;
-    color: #000000;
-    padding: 0px 25px;
-    border: none;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #fd7c16;
+  color: #000000;
+  padding: 0px 25px;
+  border: none;
 }
-.dropdown-divider.line{
-    margin: 29px 30px 0px 30px !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.29);
+.dropdown-divider.line {
+  margin: 29px 30px 0px 30px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.29);
 }
 #main {
-    transition: margin-right .5s;
+  transition: margin-right 0.5s;
 }
 svg.feather.feather-align-justify {
-    height: 35px !important;
-    width: 35px !important;
+  height: 35px !important;
+  width: 35px !important;
 }
-nav{
-    background: #FD7C16;
+nav {
+  background: #fd7c16;
 }
-.red{
-    color: #BE1931;
+.red {
+  color: #be1931;
 }
-.nav-link, .nav-link i, .nav-link:hover, .nav-link:active{
-    color: #000000;
-    font-size: 26px;
+.nav-link,
+.nav-link i,
+.nav-link:hover,
+.nav-link:active {
+  color: #000000;
+  font-size: 26px;
 }
 .dropdown-item:hover {
-    background-color: #FD7C16;
+  background-color: #fd7c16;
 }
-footer{
-    background-color: #FD7C16;
-    color: white;
-    height: 70px;
-    line-height: 1;
+footer {
+  background-color: #fd7c16;
+  color: white;
+  height: 70px;
+  line-height: 1;
 }
-footer p{
-    padding-top: 25px;
+footer p {
+  padding-top: 25px;
 }
-.dropdown-menu{
-    min-width: 8rem;
+.dropdown-menu {
+  min-width: 8rem;
 }
-.dropdown-toggle::after{
-    display: none;
+.dropdown-toggle::after {
+  display: none;
 }
-a.closebtn:hover{
-    background-color: unset;
+a.closebtn:hover {
+  background-color: unset;
 }
-button:focus{
-    outline: unset;
+button:focus {
+  outline: unset;
 }
-.welcome{
-    font-size: 16px !important;
-    margin-top: 20px;
+.welcome {
+  font-size: 16px !important;
+  margin-top: 20px;
 }
-h2{
-    font-size: 24px!important;
+h2 {
+  font-size: 24px !important;
 }
-.add_title{
-    font-size: 24px!important;
-    margin-top: 33px;
-    height: 33px;
+.add_title {
+  font-size: 24px !important;
+  margin-top: 33px;
+  height: 33px;
 }
-.customers h2{
-    padding-top: 24px;
-    padding-bottom: 38px;
+.customers h2 {
+  padding-top: 24px;
+  padding-bottom: 38px;
 }
-.item img{
-    height: 370px;
-    margin: 0px 6px;
+.item img {
+  height: 370px;
+  margin: 0px 6px;
 }
-.owl-carousel, .owl-carousel .owl-item{
-    position: unset !important;
+.owl-carousel,
+.owl-carousel .owl-item {
+  position: unset !important;
 }
-.nav-link{
-    padding: 0.5rem 0rem;
+.nav-link {
+  padding: 0.5rem 0rem;
 }
-#main .row{
-    align-items: end;
+#main .row {
+  align-items: end;
 }
-@media screen and (max-width: 300px){
-    .nav-link{
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-    }
-    .owl-item {
-        height: 150px;
-    }
+@media screen and (max-width: 300px) {
+  .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .owl-item {
+    height: 150px;
+  }
 }
-@media screen and (max-width: 992px){
-    .item img{
-        height: 150px;
-    }
-    footer{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
+@media screen and (max-width: 992px) {
+  .item img {
+    height: 150px;
+  }
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }
 /*@media (min-width: 1200px) {
     .container {
         max-width: 100%;
     }
 }*/
-.customers{
-    direction: ltr;
+.customers {
+  direction: ltr;
 }
 
-.splash{
-    background-color: #FD7C16;
+.splash {
+  background-color: #fd7c16;
 }
-.splash .row{
-    height: 100vh;
+.splash .row {
+  height: 100vh;
 }
-.splash .row img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); /* IE 9 */
-    -webkit-transform: translate(-50%, -50%);
+.splash .row img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%);
 }
+/* modal */
+div#exampleModalCenter {
+  padding: 10px;
+}
+.modal {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.modal-body {
+  padding: 25px 50px;
+}
+.f-h-mod {
+  width: auto;
+  height: 155px;
+  color: rgba(0, 0, 0, 0.43);
+  font-size: 28px;
+  font-weight: 300;
+}
+.fe {
+  margin-right: 20px;
+}
+
+.fe1 {
+  color: #000000;
+}
+
+.talb {
+  margin-right: 80px;
+}
+.sign {
+  color: #000000;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.sign-in {
+  color: #414141;
+  margin: 0px 10px 10px 0;
+  font-size: 26px;
+  background: #fd7c16;
+  border-radius: 100px;
+  padding: 1px 43px;
+}
+.sign2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.privcy {
+  margin-top: 1px;
+}
+.sign2 a {
+  color: #898989;
+  font-size: 18px;
+}
+.privcy a {
+  font-size: 11px;
+  color: #fd7c16;
+  margin-top: 5px;
+}
+.close span{
+    color: #000000 !important;
+  }
+  
+@media screen and (max-width: 450px) {
+ html , body {
+   overflow-x: hidden;
+ }
+.f-h-mod {
+  width: 270px;
+ 
+}
+}
+  /* end modal  */
+  /* start create acount page */
+
+/* navbar */
+  .phone {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #fd7c16;
+    color: #000000;
+    padding: 5px 25px;
+    border: none;
+  }
+/* end navbar */
+/* inputs  */
+.sec-input{
+  margin-top: 80px;
+  padding: 7px 27px;
+}
+.sec-input p{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+input.form-control{
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 190, 190, 0.2);
+  border-radius: 10px !important;
+}
+.input-group{
+margin-bottom: 30px;
+padding: 0 20px ;
+
+}
+.sign-in2{
+  color: #414141;
+  font-size: 26px;
+  background: #fd7c16;
+  border-radius: 100px;
+  width: 100%;
+  padding: 0;
+}
+.line{
+  height: 0;width: 100%;
+  border-bottom: 1px solid black;
+}
+.end-inp{
+  color: #FF9200 !important;
+  margin-right: 5px;
+}
+.dohave{
+  display: flex;
+  justify-content: center;
+}
+  /* end create acount page  */
+  /* confirm password page */
+  .addconf a{
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 18px !important;
+  }
+  .addconf{
+    color: #bebebe;
+    font-size: 18px !important;
+  }
+  .cont-box{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+  .box{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+  margin: 5px;
+  color: #9F9E9C;
+  box-shadow: 0px 4px 4px rgba(190, 190, 190, 0.2);
+  }
+  .timer{
+    color: #FD7C16;
+    font-size: 19px !important;
+    margin: 15px 20px;
+  }
+
+  .sign-in3{
+    color: white;
+    font-size: 26px;
+    background: #A2A3A5;
+    border-radius: 100px;
+    width: 100%;
+    padding: 0;
+  }
+  .fa-check-circle{
+    font-size: 75px;
+    color: #FD7C16;
+  }
+  .modal-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .done{
+    font-size: 36px;
+    margin: 5px;
+  }
+  
+.line2{
+  height: 80px;width: 100%;
+  border-bottom: 1px solid black;
+}
+  /*end confirm password page */
