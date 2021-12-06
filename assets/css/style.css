@@ -244,7 +244,7 @@ div#exampleModalCenter {
 .sign-in {
   color: #414141;
   margin: 0px 10px 10px 0;
-  font-size: 26px;
+  font-size: 21px;
   background: #fd7c16;
   border-radius: 100px;
   padding: 1px 43px;
@@ -267,6 +267,7 @@ div#exampleModalCenter {
 }
 .close span{
     color: #000000 !important;
+    margin: 15px;
   }
   
 @media screen and (max-width: 450px) {
@@ -408,7 +409,6 @@ padding: 0 20px ;
 svg.feather {
   width: 30px;
   height: 30px;
-  stroke: #FD7C16;
 
 }
 .box2{
@@ -572,3 +572,40 @@ margin-top: 100px;
  font-size: 20px;
 }
 /* end contain shop  */
+/* start fatoora */
+.third-nav  {
+  font-size: 24px;
+  height: 65px;
+  border-bottom:  1px solid rgba(253, 124, 22, 0.5);;
+ }
+ 
+.third-nav p {
+  margin-top: 20px;
+ }
+ .fatoora{
+   padding: 0 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  width: 284px;
+  height: 390px;
+  margin-top: 15px;
+ }
+ 
+ .fatoora p{
+  font-size: 14px;
+
+ }
+.fir-fatoora {
+font-size: 14px;
+line-height: 17px;
+}
+.sched1{
+  font-size: 14px;
+width: 112px;
+margin-right: 15px;
+ }
+ .schedl{
+   width: 112px;
+  font-size: 14px;
+
+ }
+/* end fatoora */
