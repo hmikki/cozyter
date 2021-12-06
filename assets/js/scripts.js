@@ -11,12 +11,17 @@ function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     //document.getElementById("main").style.marginRight= "0";
 }
+
+
+
 $( document ).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
-        autoplay:true,
+        rtl:true,
+        autoplay:false,
         autoplayTimeout:5000,
         autoplayHoverPause:true,
+        margin:0,
         responsive:{
             0:{
                 items:3
@@ -33,3 +38,8 @@ $( document ).ready(function() {
         }
     });
 });
+
+
+
+
+
