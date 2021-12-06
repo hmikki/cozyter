@@ -11,7 +11,9 @@ function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     //document.getElementById("main").style.marginRight= "0";
 }
-
+$("#amg").click(function(e) {
+    $("#qr-reader").click();
+});
 
 
 $( document ).ready(function() {

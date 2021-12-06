@@ -403,8 +403,12 @@ padding: 0 20px ;
   margin-top: 10px;
   font-size: 19px;
 }
+.souq{
+ stroke: #FD7C16;
+}
 .name span{
   color:#FD7C16 ;
+  letter-spacing: -1px;
 }
 svg.feather {
   width: 30px;
