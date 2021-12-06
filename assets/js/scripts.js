@@ -42,6 +42,12 @@ $( document ).ready(function() {
             }
         }
     });
+
+    $("#amg").click(function(e) {
+        var button = $("#qr-reader__dashboard_section_csr button");
+        button[0].click();
+        //$("#amg")[0].style.display="none";
+    });
 });
 
 
