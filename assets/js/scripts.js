@@ -14,7 +14,10 @@ function closeNav() {
 $("#amg").click(function(e) {
     $("#qr-reader").click();
 });
-
+function dark() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
 
 $( document ).ready(function() {
     $('.owl-carousel').owlCarousel({

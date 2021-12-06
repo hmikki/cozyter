@@ -17,6 +17,7 @@
   font-family: "Cocon Next Arabic";
   word-spacing: 1px;
 }
+
 html,
 body {
   height: 100%;
@@ -613,3 +614,53 @@ margin-right: 15px;
 
  }
 /* end fatoora */
+/* personal page */
+.dark-mode{
+  background-color: #272727;
+  color: white;
+}
+.dark-mode img{
+filter: invert(1);
+}
+.camera img{
+width: 68px;
+height:68px ;
+border-radius: 50%;
+}
+.change a{
+  color: rgba(0, 0, 0, 0.5);
+}
+.nme{
+  color: #FD7C16;
+  font-size: 14px;
+}
+.wlet{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 87px;
+height: 81px;
+text-align: center;
+padding-top: 10px ;
+margin: 10px;
+}
+
+.wlet i{
+
+font-size: 30px;
+}
+.out{
+color: red;
+border: 1px solid red;
+padding: 1px 0;
+border-radius: 100px;
+font-size: 21px;
+
+}
+.save{
+background-color: #FD7C16;
+color: #414141;
+font-size: 21px;
+border-radius: 100px;
+padding: 0 30px;
+}
+/* end personal page */
