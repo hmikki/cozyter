@@ -57,9 +57,29 @@
    
   </div>
   <div class="row justify-content-center">
-    <button class="btn act px-5 mt-5"> الدفع</button>
+    <button class="btn act px-5 mt-5"  data-toggle="modal" data-target="#exampleModalCenter"> الدفع</button>
   </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        <div class="float-left">
+            <span aria-hidden="true"  class="close" data-dismiss="modal" aria-label="Close">&times;</span>
+  
+        </div>
+        <div class=" row justify-content-center">
+          <i class="fa fa-check-circle mt-5" aria-hidden="true"></i>
+          <p class="text-center mt-2">دقايق والنادل بيكون عندك <br>او ادفع عند الكاشير</p>
+          <p style="font-size: 12px; margin-top: 45px;">يتم الدفع حسب سياسة المطعم او الكافيه</p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
