@@ -26,31 +26,69 @@
 
 <body>
 
+
+
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+    <a class="text-right" href="index.html"><i data-feather="home"></i>
+      الرئيسية
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="build.html"><i class="far fa-calendar"></i>
+
+      حجز الطاولات
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي
+      <span class="red">!</span></a>
+  </div>
+
+
+
+
+
+
   <div class="third-nav">
     <div class="container-fluid">
       <div class="row justify-content-around align-content-center">
-       <p>          <i data-feather="align-justify"></i>
+       <p onclick="openNav()">          <i data-feather="align-justify"></i>
        </p>
        <p>الملف الشخصي</p>
        <p onclick="dark()"><i class="far fa-moon"></i></p>
       </div>
     </div>
   </div>
+  <section onclick="closeNav()">
   <div class="  row justify-content-center align-items-center flex-column">
     <p class="camera"><img src="assets/img/camera.png" alt=""></p>
     <p class="change"><a href="">تغيير الصورة</a></p>
   </div>
-  <div class="  row justify-content-start mr-4 flex-column">
-   <p>اسم العميل</p>
-   <p class="nme">عبد الله</p>
-
-  </div>
-  <div class="  row justify-content-start mr-4 flex-column">
-    <p>رقم الجوال</p>
-    <p class="nme">05948484</p>
- 
-   </div>
+  <div class="row justify-content-center">
+    <div class="  row justify-content-start mr-4 flex-column m-2">
+      <p>اسم العميل</p>
+      <p class="nme">عبد الله</p>
+   
+     </div>
+     <div class="  row justify-content-start mr-4 flex-column m-2">
+       <p>رقم الجوال</p>
+       <p class="nme">05948484</p>
     
+      </div>
+       
+  </div>
+
    <div class="  row justify-content-center ">
     <div class="wlet text-center">
       <i class="fas fa-wallet"></i> <p>المحفظة</p>
@@ -60,17 +98,18 @@
  
    </div>
     
- <div class="row mr-3 mt-2">
+ <div class="row justify-content-lg-center mr-3 mt-2">
    <a href="" style="color: rgba(0, 0, 0, 0.5);">تغيير كلمة المرور</a>
  </div>
- <div class="row justify-content-around mt-4">
+ <div class="row justify-content-around justify-content-lg-center mt-4">
    <button class="btn out">تسجيل الخروج </button>
-   <button class="btn save">حفظ</button>
+   <button class="btn save mr-lg-4">حفظ</button>
 
  </div>
  <div class="footer">
   <p>جميع الحقوق محفوظة © 2021</p>
 </div>
+</section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"

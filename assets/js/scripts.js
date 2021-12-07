@@ -24,7 +24,7 @@ $( document ).ready(function() {
         loop:true,
         rtl:true,
         autoplay:false,
-        autoplayTimeout:5000,
+        autoplayTimeout:3000,
         autoplayHoverPause:true,
         margin:0,
         responsive:{
@@ -35,10 +35,10 @@ $( document ).ready(function() {
                 items:3
             },
             1000:{
-                items:4
+                items:8
             },
             1200:{
-                items:4
+                items:8
             }
         }
     });

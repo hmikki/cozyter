@@ -26,11 +26,39 @@
 
 <body>
 
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+    <a class="text-right" href="index.html"><i data-feather="home"></i>
+      الرئيسية
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="build.html"><i class="far fa-calendar"></i>
+
+      حجز الطاولات
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي
+      <span class="red">!</span></a>
+  </div>
+
+
   <div class="third-nav">
     <div class="container-fluid">
       
       <div class="row align-content-center">
-       <p class="col-5"> <i data-feather="align-justify"></i></p>
+       <p class="col-5"  onclick="openNav()"> <i data-feather="align-justify"></i></p>
        <p class="col-7">الاشعارات</p>
 
       </div>
@@ -38,7 +66,7 @@
 
     </div>
   </div>
-  <div class="notif">
+  <div class="notif" onclick="closeNav()">
     <div class="not-box mt-5">
       <div class="not-img">
         <img src="assets/img/.PNG" alt="">
