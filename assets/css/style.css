@@ -42,7 +42,7 @@ body {
 
 .sidebar a {
   text-align: center;
-  padding: 2px 8px 2px 32px;
+  padding: 9px;
   text-decoration: none;
   font-size: 16px;
   color: #000000;
@@ -64,7 +64,7 @@ svg.feather {
 }
 
 .openSidebar {
-  width: 250px;
+  width: 220px;
 }
 .sidebar a:hover {
   color: #f1f1f1;
@@ -77,7 +77,8 @@ svg.feather {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 40px;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.08);
 }
 .openbtn {
   font-size: 40px;
@@ -88,8 +89,11 @@ svg.feather {
   border: none;
 }
 .dropdown-divider.line {
-  margin: 29px 30px 0px 30px !important;
+  margin: 29px 0px 0px 30px !important;
   border-top: 1px solid rgba(0, 0, 0, 0.29);
+}
+.dropdown-divider {
+  margin: 0 !important;
 }
 #main {
   transition: margin-right 0.5s;
@@ -117,7 +121,7 @@ nav {
 footer {
   background-color: #fd7c16;
   color: white;
-  height: 70px;
+  height: 60px;
   line-height: 1;
 }
 footer p {
@@ -166,7 +170,7 @@ h2 {
 #main .row {
   align-items: end;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 450px) {
   .nav-link {
     padding-right: 0px !important;
     padding-left: 0px !important;
@@ -174,10 +178,16 @@ h2 {
   .owl-item {
     height: 150px;
   }
+  .item img {
+    height: 150px;
+    width: 110px;
+  }
+  
 }
 @media screen and (max-width: 992px) {
   .item img {
-    height: 150px;
+    height: 110px;
+    width: 110px;
   }
   footer {
     bottom: 0;
@@ -503,15 +513,25 @@ color: #FD7C16;
   display: flex;
   background: rgba(146, 127, 103, 0.03);
 height: 108px;
+transition: 0.6s all ease-in;
 }
+
+.cont-shop:hover .delete{
+  min-width: 25%;
+  background-color: #FF0000BF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  opacity: 1;
+}
+
   .delete{
-   min-width: 25%;
-    background-color: #FF0000BF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+opacity: 0; 
+   transition: 0.6s all ease-in;
+
   }
+
   
   .delete i{
   font-size: 22px;
@@ -556,7 +576,7 @@ margin: 0 10px;   }
     padding-right: 100px;
   }
   #accordion{
-margin-top: 100px;
+margin-top: 70px;
 
 }
 .conf {
@@ -753,4 +773,19 @@ color: #FD7C16;}
 /* end record page */
 #qr-reader{
 top:50%;
+}
+.footer{
+position: absolute; 
+bottom: 0;
+width: 100%;
+height: 60px;
+right: 0;
+background-color: #FD7C16;
+text-align: center;
+color: white;
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 5px;
 }
