@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>cozyter</title>
 
-
+  <link rel="stylesheet" href="assets/css/normlaize.css">
   <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     crossorigin="anonymous" />
@@ -27,62 +27,83 @@
 <body>
 
   <div class="third-nav">
-    <div class="container-fluid">
-      <div class="row justify-content-center align-content-center">
-       <p>الفاتورة</p>
+    <div class="container">
+      <div class="row justify-content-around align-content-center">
+        <p></p>
+        <p>الفاتورة</p>
+        <p class="corner-up-left"><i data-feather="corner-up-left"></i></p>
       </div>
     </div>
   </div>
   <div class="  row justify-content-center align-items-center">
     <div class="fatoora">
       <p class="text-center fir-fatoora"> بيتزا هت الشوقية<br>شارع عبد الله كوشك<br>2-9-2021 15/30</p>
-   <div class="row"> <p class="sched1"> 5 بيتزا بيروني  </p>  <a class="schedl">10.65</a></div>  
-     <div class="row"> <p class="sched1"> جبنة  </p> <a class="schedl">3</a></div>
-     <div class="row"> <p class="sched1">   </p> <a class="schedl">65.12</a></div>
+      <div class="row">
+        <p class="sched1"> 5 بيتزا بيروني </p> <a class="schedl">10.65</a>
+      </div>
+      <div class="row">
+        <p class="sched1"> جبنة </p> <a class="schedl">3</a>
+      </div>
+      <div class="row">
+        <p class="sched1"> </p> <a class="schedl">65.12</a>
+      </div>
 
-     <div class="row"> <p class="sched1"> 5 بيتزا بيروني  </p>  <a class="schedl">10.65</a></div>  
-     <div class="row"> <p class="sched1"></p>  <a class="schedl">25.5</a></div>  
-     <div class="container">
-      <p class=" line mt-2"></p>
+      <div class="row">
+        <p class="sched1"> 5 بيتزا بيروني </p> <a class="schedl">10.65</a>
+      </div>
+      <div class="row">
+        <p class="sched1"></p> <a class="schedl">25.5</a>
+      </div>
+      <div class="container">
+        <p class=" line mt-2"></p>
 
-     </div>
-     <div class="row justify-content-center"> <p class="sched1"> الضريبة </p>  <a class="schedl">10.65</a></div>  
-     <div class="row justify-content-center"> <p class="sched1"> المجموع</p>  <a class="schedl">25.5</a></div>  
-     <div class="row justify-content-center mt-2"> <p>******************** </p>  </div>  
-     <div class="row justify-content-center "> <p>يدفع الزائر مباشرة بعد اتمام الخدمة</p>  </div>  
+      </div>
+      <div class="row justify-content-center">
+        <p class="sched1"> الضريبة </p> <a class="schedl">10.65</a>
+      </div>
+      <div class="row justify-content-center">
+        <p class="sched1"> المجموع</p> <a class="schedl">25.5</a>
+      </div>
+      <div class="row justify-content-center mt-2">
+        <p>******************** </p>
+      </div>
+      <div class="row justify-content-center ">
+        <p>يدفع الزائر مباشرة بعد اتمام الخدمة</p>
+      </div>
 
     </div>
-    
-    </div>
-   
+
+  </div>
+
   </div>
   <div class="row justify-content-center">
-    <button class="btn act px-5 mt-5"  data-toggle="modal" data-target="#exampleModalCenter"> الدفع</button>
+    <button class="btn act px-5 mt-5" data-toggle="modal" data-target="#exampleModalCenter"> الدفع</button>
   </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-    
-      <div class="modal-body">
-        <div class="float-left">
-            <span aria-hidden="true"  class="close" data-dismiss="modal" aria-label="Close">&times;</span>
-  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="float-left">
+            <span aria-hidden="true" class="close" data-dismiss="modal" aria-label="Close">&times;</span>
+
+          </div>
+          <div class=" row justify-content-center">
+            <i class="fa fa-check-circle mt-5 mb-lg-3" aria-hidden="true"></i>
+            <p class="text-center mt-2">دقايق والنادل بيكون عندك <br>او ادفع عند الكاشير</p>
+            <p style="font-size: 12px; margin-top: 45px;">يتم الدفع حسب سياسة المطعم او الكافيه</p>
+          </div>
         </div>
-        <div class=" row justify-content-center">
-          <i class="fa fa-check-circle mt-5 mb-lg-3" aria-hidden="true"></i>
-          <p class="text-center mt-2">دقايق والنادل بيكون عندك <br>او ادفع عند الكاشير</p>
-          <p style="font-size: 12px; margin-top: 45px;">يتم الدفع حسب سياسة المطعم او الكافيه</p>
-        </div>
+
       </div>
-    
     </div>
   </div>
-</div>
-<div class="footer">
-  <p>جميع الحقوق محفوظة © 2021</p>
-</div>
+  <div class="footer">
+    <p>جميع الحقوق محفوظة © 2021</p>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
