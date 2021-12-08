@@ -443,6 +443,11 @@ padding: 5px;
 width:111px;
 text-align: center;
 }
+
+.box2 i{
+ font-size: 13px;
+ margin-left: 5px;
+    }
 .act{
 color: white;
 background-color: #FD7C16;
@@ -455,8 +460,14 @@ border: 1px solid #FEAA3A;
 }
 .card{
 box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.08);
+position: relative;
 
 }
+.card .plus{
+ position: absolute;
+ right: 50%;
+ top: 20%;
+    }
 .card , .card-body ,.card img{
 border-radius: 20px;
 }
@@ -466,6 +477,7 @@ padding: 10px 30px;
 .card-img-top{
 height: 150px;
 width: 310px;
+background-color: #C4C4C4;
 }
 .card h1{
 font-size: 20px;
@@ -817,6 +829,11 @@ justify-content: center ;
 box-sizing: border-box;
 margin: 15px;
 position: relative;
+flex-direction: column;
+}
+.cont-bush i{
+font-size: 34px;
+color: #5C5C5C;
 }
 .nu{
 top: 20%;
@@ -866,6 +883,16 @@ margin-right: 5px;
     
 }
 
+.b-yellow2{
+    color: #414141;
+    padding: 5px 20px;
+    border-radius: 100px;
+    color: #FEAA3A;
+    border: 1px solid #FEAA3A!important;
+
+    
+}
+
 .btn-yellow{
     background-color: #FEAA3A !important;
     border-radius: 100px;
@@ -873,6 +900,14 @@ margin-right: 5px;
     padding: 5px 10px;
     width: 230px;
 
+}
+
+.btn-yellow2{
+    background-color: #FEAA3A !important;
+    border-radius: 100px;
+    color: #414141;
+
+  
 }
 .yahla{
     font-size: 44px;
@@ -902,4 +937,36 @@ width: 80%;
 .bord-in{
     border: 1px solid gray;
     border-radius: 20px;
+}
+.rate-box{
+    background-color: #F1EEEE;
+padding: 15px;
+margin-top: 10px;
+border: 1px solid #00000026;
+}
+.rate-box i{
+    color: #FEAA3A;
+}
+
+.over{
+    height: 150px ;
+    width: 310px;
+background-color: #C4C4C4;
+position: absolute;opacity: .7;
+border-radius: 15%;
+}
+.uses{
+    font-size: 24px;
+    border: 1px solid #C4C4C4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-items: end;
+}
+.uses p{
+margin: 1px;
+}
+.uses span{
+color: #C4C4C4;
+font-size: 16px;
 }
