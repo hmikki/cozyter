@@ -973,3 +973,25 @@ margin: 1px;
 color: #C4C4C4;
 font-size: 16px;
 }
+.dark{
+background-color: #00000040;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.modl{
+background-color: white;
+padding: 20px 20px;
+border-radius: 5px;
+
+}
+.modl p{
+ margin: 3px;
+ font-size: 22px;
+
+    }
+.modl i{
+   color: #FD7C16;
+    }
