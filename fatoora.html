@@ -12,16 +12,9 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <script src="https://unpkg.com/feather-icons"></script>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+  
 </head>
 
 <body>
@@ -78,9 +71,10 @@
   <div class="row justify-content-center">
     <button class="btn act px-5 mt-5" data-toggle="modal" data-target="#exampleModalCenter"> الدفع</button>
   </div>
+  <button onclick="sweet()" id="openSWAL" style="display: none;">ادفع</button>
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  <div class="modal fade" id="exampleModalCenter" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -101,10 +95,11 @@
 
                 <div class="panel panel-default">
 
-                  <div class="panel-heading">
+                  <div class="panel-heading"> 
                     <h4 class="panel-title">
                         <label for='r11' style='width:100%;'>
-                          <input type='radio' id='r11' name='occupation' value='Working' required /> رقم البطاقة
+                          <input type='radio' id='r11' class="d-none" name='occupation' value='Working' required /> 
+                          رقم البطاقة
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></a>
                           <i class="fas fa-wallet icn2"></i>
                         </label>
@@ -141,7 +136,9 @@
                       <label for="inputPassword" class="col-sm-2">الاسم على البطاقة</label>
                       <div class="col-sm-4 d-flex">
                         <input type="text" class="form-control " id="inputPassword" placeholder="... .. .. ...">
-                        <input type="submit" class="sub" value="ادفع">
+                        
+                        <button  id="openSWAL" class="sub">ادفع</button>
+
                         
                       </div>
                     
@@ -158,27 +155,16 @@
                   <div class="panel-heading">
                     <h4 class=panel-title>
                         <label for='r12' style='width: 350px;'>
-                          <input type='radio' id='r12' name='occupation' value='Not-Working' required />
+                          <!-- <input type='radio' id='r12' name='occupation' value='Not-Working' required /> -->
                           
-                           ابل باي 
-                          <i class="fab fa-cc-apple-pay icn" ></i>
-                        </label>
+                          المحفظة        
+                                             <i class="fas fa-credit-card icn3"></i>
+                          </label>
                     </h4>
                   </div>
                  
                 </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading">
-                    <h4 class=panel-title>
-                        <label for='r12' style='width: 350px;'>
-                          <input type='radio' id='r12' name='occupation' value='Not-Working' required /> المحفظة
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></a>
-                          <i class="fas fa-credit-card icn3"></i>
-                        </label>
-                    </h4>
-                  </div>
-                 
-                </div>
+             
               </div>
             </form>
           
@@ -187,7 +173,9 @@
       </div>
     </div>
   </div>
- 
+
+
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
@@ -200,9 +188,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <script src="assets/js/scripts.js" type="application/javascript"></script>
+
   <script>
-    feather.replace();
+function sweet() {
+  swal(
+  "تم الشحن بنجاح!", 
+  "تمت العملية بنجاح !", 
+  "success",
+   {
+  button: false,
+}
+);
+ }  
+
+ feather.replace();
   </script>
 </body>
 

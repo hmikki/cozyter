@@ -1026,3 +1026,6 @@ textarea.form-control {
 color: #000000;
 font-size: 20px;
 }
+.swal-icon--success__line--long ,.swal-icon--success__line--tip{
+background-color: #fd7c16;
+  }
