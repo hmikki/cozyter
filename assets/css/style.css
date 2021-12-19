@@ -17,6 +17,10 @@
   font-family: "Cocon Next Arabic";
   word-spacing: 1px;
 }
+*::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Cocon Next Arabic" ,"fontawesome";
+  color: #9F9E9C !important;
+  }
 
 html,
 body {
@@ -37,14 +41,14 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .sidebar a {
   text-align: center;
   padding: 9px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
   display: block;
   transition: 0.3s;
@@ -52,6 +56,14 @@ body {
 .sidebar a i,
 svg.feather {
   padding-left: 8px;
+  font-size: 21px;
+}
+.first .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 60px;
+ padding: 0;
 }
 svg.feather {
   width: 24px;
@@ -89,11 +101,14 @@ svg.feather {
   border: none;
 }
 .dropdown-divider.line {
-  margin: 29px 0px 0px 30px !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.29);
+  margin-top:30px !important;
+  border-top:  1px solid rgba(0, 0, 0, 0.29);
+  opacity: 0.3;
+  width: 90%;
 }
 .dropdown-divider {
-  margin: 0 !important;
+  margin: 0 15px !important;
+  display: flex; justify-content: center;
 }
 #main {
   transition: margin-right 0.5s;
@@ -181,6 +196,7 @@ h2 {
     height: 150px;
     width: 110px;
   }
+  
 }
 @media screen and (max-width: 992px) {
   .item img {
@@ -193,6 +209,7 @@ h2 {
     width: 100%;
   }
 }
+
 /*@media (min-width: 1200px) {
 .container {
 max-width: 100%;
@@ -300,7 +317,7 @@ div#exampleModalCenter {
 
 /* navbar */
 .phone {
-  font-size: 25px;
+  font-size: 21px;
   cursor: pointer;
   background-color: #fd7c16;
   color: #000000;
@@ -314,7 +331,7 @@ div#exampleModalCenter {
   padding: 7px 27px;
 }
 .sec-input p {
-  font-size: 23px;
+  font-size: 26px;
   margin-bottom: 20px;
 }
 input.form-control {
@@ -322,19 +339,20 @@ input.form-control {
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(190, 190, 190, 0.2);
-  border-radius: 10px !important;
+  border-radius: 30px !important;
 }
 .input-group {
   margin-bottom: 30px;
-  padding: 0 20px;
+  padding: 0 39px;
 }
 .sign-in2 {
   color: #414141;
-  font-size: 26px;
+  font-size: 24px;
   background: #fd7c16;
   border-radius: 100px;
   width: 100%;
   padding: 0;
+  margin:0 20px ;
 }
 .line {
   height: 0;
@@ -346,6 +364,7 @@ input.form-control {
   margin-right: 5px;
 }
 .dohave {
+  font-size: 19px;
   display: flex;
   justify-content: center;
 }
@@ -383,11 +402,12 @@ input.form-control {
 
 .sign-in3 {
   color: white;
-  font-size: 26px;
+  font-size: 23px;
   background: #a2a3a5;
   border-radius: 100px;
   width: 100%;
   padding: 0;
+  margin:0 20px ;
 }
 .fa-check-circle {
   font-size: 75px;
@@ -454,6 +474,9 @@ svg.feather {
   background-color: #feaa3a;
   border: 1px solid #feaa3a;
 }
+.card:hover .next{
+display: block;
+}
 .card {
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.08);
   position: relative;
@@ -466,14 +489,14 @@ svg.feather {
 .card,
 .card-body,
 .card img {
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .cont-card {
   padding: 10px 30px;
 }
 .card-img-top {
   height: 150px;
-  width: 310px;
+  width:310px;
   background-color: #c4c4c4;
 }
 .card h1 {
@@ -488,6 +511,8 @@ svg.feather {
 .add {
   background-color: #fd7c16;
   padding: 5px;
+  border-radius: 150px;
+font-size: 18px;
 }
 .form-check-inline {
   margin-right: 0;
@@ -1029,3 +1054,18 @@ font-size: 20px;
 .swal-icon--success__line--long ,.swal-icon--success__line--tip{
 background-color: #fd7c16;
   }
+ 
+  .new{
+    color: #000000;
+    margin-top: 20px;
+    display: none;
+  }
+  .theCount{
+   font-size: 18px;
+  }
+  .qrCode{
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }

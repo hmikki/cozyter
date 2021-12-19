@@ -22,14 +22,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <div class="text-left ml-3 mt-4">
+    <p class="corner-up-left"><i data-feather="corner-up-left"></i></p>
+
+  </div>
+  
 <div class="container">
   <section class="qrCode">
-    <div class="row justify-content-center text-center align-items-center">
-      <div class="col-12">
-         <img id="amg" src="assets/img/qr.png"   height="500px" alt="" class="text-center">
+   
+    <div class=" justify-content-center text-center align-items-center">
+         <img id="amg" src="assets/img/qr.png" height="230px" width="230px" alt="" class="text-center">
         <div id="qr-reader" class="text-center col-12 d-none">
         </div>
-      </div>
     </div>
   </section>
 </div>
@@ -64,5 +69,8 @@
 
 </script>
 <script src="assets/js/scripts.js" type="application/javascript"></script>
+ <script>
+    feather.replace();
+  </script>
 </body>
 </html>

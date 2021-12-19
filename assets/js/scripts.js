@@ -62,3 +62,37 @@ $('#r11').on('click', function(){
   $('#r12').on('click', function(){
     $(this).parent().find('a').trigger('click')
   })
+
+  var counter = 0;
+   
+  $(document).ready(function() {
+
+      $(".addMe").click(function(){
+          counter++;
+
+        //   $(".theCount").text(counter);
+
+          $(this).parent().find('.theCount').text(counter);
+
+      });
+        
+      $(".main").click(function(){
+          if(counter != 0 ){
+            counter--;
+
+          }
+
+          $(this).parent().find('.theCount').text(counter);
+    });
+    
+    $(".card").click(function(){
+                $(".card-img-top").css("width" , "100%");
+                $(".new").css("display" , "none");
+                $(this).find('.new').css("display" , "block");
+
+    });
+  
+  });
+
+
+  
