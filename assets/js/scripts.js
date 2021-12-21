@@ -86,12 +86,12 @@ $('#r11').on('click', function(){
     });
     
     $(".card").click(function(){
-                $(".card-img-top").css("width" , "100%");
-                    $(".new").css("display" , "none");
-                    $(this).find('.new').css("display" , "block");
+                    $(this).find('.new').slideToggle();
+
+       
     });
   
   });
 
 
-  
+ 
