@@ -647,8 +647,12 @@ textarea.form-control {
 }
 /* end contain shop  */
 /* start fatoora */
-.corner-up-left {
+.corner-up-left a{
   color: #fd7c16;
+}
+.corner-up-left a:hover{
+  color: #fd7c16;
+  text-decoration: none;
 }
 .third-nav {
   font-size: 24px;
