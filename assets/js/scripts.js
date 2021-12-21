@@ -86,6 +86,7 @@ $('#r11').on('click', function(){
     });
     
     $(".card").click(function(){
+        $(this).siblings().find('.new').fadeOut();
                     $(this).find('.new').slideToggle();
 
        
