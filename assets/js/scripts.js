@@ -87,9 +87,12 @@ $('#r11').on('click', function(){
     
     $(".card").click(function(){
                 $(".card-img-top").css("width" , "100%");
-                $(".new").css("display" , "none");
-                $(this).find('.new').css("display" , "block");
-
+                if ($(this).find('.new').css("display" , "none")){
+                    $(".new").css("display" , "none");
+                    $(this).find('.new').css("display" , "block");
+                }else {
+                    $(this).find('.new').css("display" , "none");
+                }
     });
   
   });
