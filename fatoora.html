@@ -26,7 +26,7 @@
       <div class="row justify-content-around align-content-center">
         <p></p>
         <p>الفاتورة</p>
-        <p style="color: #fd7c16;"><i data-feather="corner-up-left"></i></p>
+        <p><a href="record.html"  style="color: #fd7c16;"><i data-feather="corner-up-left"></i></a></p>
       </div>
     </div>
   </div>
@@ -75,13 +75,33 @@
 
   </div>
   <div class="row justify-content-center">
-    <button class="btn act px-5 mt-3" data-toggle="modal" data-target="#exampleModalCenter"> الدفع</button>
+    <button class="btn act px-5 mt-3" data-toggle="modal" data-target="#exampleModalCenter"> ادفع عن طريق الموقع</button>
   </div>
   <div class="row justify-content-center">
-    <button class="btn adds px-5 mt-1"> الدفع</button>
+    <button class="btn adds px-5 mt-1" data-toggle="modal" data-target="#exampleModalCenter2"> ادفع عن طريق الموظف</button>
   </div>
   <button onclick="sweet()" id="openSWAL" style="display: none;">ادفع</button>
 
+
+  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+      
+        <div class="modal-body p-5">
+          <div class="float-left" style="position: absolute; top: 15px; left: 20px; ">
+            <span aria-hidden="true" class="close closes" data-dismiss="modal" aria-label="Close">&times;</span>
+
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <h4 class="mt-3 p-2 text-center">دقايق والنادل بيكون عندك <br> او ادفع عند الكاشير</h4>
+              <small class="mt-5">يتم الدفع حسب سياسة الموقع</small>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
   <!-- Modal -->
   <div class="modal fade" id="exampleModalCenter" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
