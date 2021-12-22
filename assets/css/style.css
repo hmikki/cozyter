@@ -1050,6 +1050,11 @@ color: #000000;
     margin-right: 64px;
   }
   }
+  @media screen and (max-width: 339px) {
+
+    label{
+font-size: 18px;    }
+    }
 
 .icn3 {
   margin-right: 120px;
