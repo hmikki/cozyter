@@ -489,7 +489,7 @@ svg.feather {
 }
 .card .plus {
   position: absolute;
-  right: 50%;
+  right: 43%;
   top: 20%;
 }
 .card,
@@ -965,11 +965,10 @@ color: #000000;
 
 .over {
   height: 150px;
-  width: 310px;
+  width: 298px;
   background-color: #c4c4c4;
   position: absolute;
-  opacity: 0.7;
-  border-radius: 15%;
+  opacity: 0.8;
 }
 .uses {
   font-size: 24px;
