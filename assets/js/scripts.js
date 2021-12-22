@@ -82,8 +82,12 @@ $('#r11').on('click', function(){
 
           }
 
+
+
+          
           $(this).parent().find('.theCount').text(counter);
     });
+    
     
     $(".card").click(function(){
         $(this).siblings().find('.new').fadeOut();
@@ -92,7 +96,15 @@ $('#r11').on('click', function(){
        
     });
 
-  
+    $('.delete').fadeOut();
+
+    $(".cont-shop").click(function(){
+        $(this).siblings().find('.delete').fadeOut();
+                    $(this).find('.delete').fadeToggle();
+
+       
+    });
+
   });
 
 
