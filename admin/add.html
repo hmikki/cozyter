@@ -29,7 +29,7 @@
       <div class="row justify-content-between align-items-center">
         <div><i data-feather="align-justify"></i></div>
         <div class="mt-3">
-          <p class="m">قائمة الطعام</p>
+          <p class="m">ادراج الاصناف</p>
         </div>
         <div>
           <i data-feather="corner-up-left" style="color: #fdaa3a"></i>
@@ -70,7 +70,7 @@
         <div class="card-body">
           <div class="d-flex justify-content-between">
             <div>
-              <p class="m-0 p-0" style="color: black;">اسم الطبق <i class="fas fa-pen"></i></p>
+              <p class="m-0 p-0" style="color: black;" data-toggle="modal" data-target="#exampleModalCenter">اسم الطبق <i class="fas fa-pen"></i></p>
               <p class="m-0 p-0" >الوصف <i class="fas fa-pen"></i></p>
             </div>
             <div class="row">
@@ -101,6 +101,21 @@
 
   </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+    
+      <div class="modal-body">
+        <p style="font-size: 24px;">أدخل اسم الطبق <span style="color: #fdaa3a;">!</span></p>
+        <input class="form-control" type="text" placeholder="العربية">
+        <input class="form-control mt-3 mb-3" type="text" placeholder="English">
+
+      </div>
+     
+    </div>
+  </div>
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"

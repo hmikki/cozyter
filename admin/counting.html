@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>cozyter</title>
-
-
+  <link rel="stylesheet" href="../assets/css/normlaize.css" />
   <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     crossorigin="anonymous" />
@@ -25,92 +24,43 @@
 </head>
 
 <body>
-
-
-
-
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
-    <a class="text-right" href="index.html"><i data-feather="home"></i>
-      الرئيسية
-    </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود
-    </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="build.html"><i class="far fa-calendar"></i>
-
-      حجز الطاولات
-    </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني
-    </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي
-      <span class="red">!</span></a>
-  </div>
-
-
-
-
-
-
   <div class="third-nav">
     <div class="container-fluid">
-      <div class="row justify-content-around align-content-center">
-       <p onclick="openNav()">          <i data-feather="align-justify"></i>
-       </p>
-       <p>الاشعارات</p>
-       <p ></p>
+      <div class="row align-content-center justify-content-between ">
+        <p></p>
+        <p>الاحصاء </p>
+        <p>
+          <i data-feather="corner-up-left" style="color: #fdaa3a"></i>
+        </p>
       </div>
     </div>
   </div>
-  <section onclick="closeNav()">
-    <div class="row justify-content-center align-content-center">
-    
-      <div  class="row justify-content-between uses">
-        <div>
-          <p>عضويةالمقر الواحد</p>
-
-          <p>30.vs</p>
-          <span>شهريا</span>
-        </div>
-
-<div>
-  <button class="btn b-yellow w-75"> اشترك</button>
-</div>
+  <section>
+    <div class="row justify-content-center align-items-center mt-4">
+      <div class="form-group">
+        <input type="date" class="form-control" id="exampleInputEmail1">
       </div>
-      <div  class="row justify-content-between uses">
-        <div>
-          <p>عضويةالمقر الواحد</p>
-
-          <p>30.vs</p>
-          <span>شهريا</span>
+      <div>
+        <div class="bax ">
+            <div class="row justify-content-start mr-1 mt-5">
+              <div style="font-size: 50px;"><i class="far fa-calendar-alt"></i></div>
+              <div class="d-flex flex-column mr-4">
+                <p style="color: #fdaa3a; font-size: 24px;">300</p>
+                <small style="color: #ACABAB;">عدد الطلبات</small>
+              </div>
+            </div>
         </div>
-
-<div>
-  <button class="btn b-yellow w-75"> اشترك</button>
-</div>
+        <div class="bax ">
+          <div class="row justify-content-start mr-1 mt-5">
+            <div style="font-size: 45px;"><i class="fas fa-money-bill-alt"></i></div>
+            <div class="d-flex flex-column mr-4">
+              <p style="color: #fdaa3a; font-size: 24px;">3000</p>
+              <small style="color: #ACABAB;">مجمل الارباح</small>
+            </div>
+          </div>
       </div>
-      <div  class="row justify-content-between uses">
-        <div>
-          <p>عضويةالمقر الواحد</p>
-
-          <p>30.vs</p>
-          <span>شهريا</span>
-        </div>
-
-<div>
-  <button class="btn b-yellow w-75"> اشترك</button>
-</div>
       </div>
-  
-  </div>
+    </div>
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -124,7 +74,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="../assets/js/scripts.js" type="application/javascript"></script>
+  <script src="assets/js/scripts.js" type="application/javascript"></script>
   <script>
     feather.replace();
   </script>
