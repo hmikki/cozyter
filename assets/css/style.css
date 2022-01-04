@@ -24,7 +24,8 @@
 
 html,
 body {
-  height: 100vh;
+  height: 109vh;
+  position: relative;
   overflow-x: hidden;
 }
 body {
