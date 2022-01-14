@@ -225,7 +225,7 @@ max-width: 100%;
   background-color: #fd7c16;
 }
 .splash2 {
-  background-color: #ff5722;
+  background-color: #fd7c16;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -488,8 +488,8 @@ svg.feather {
 }
 .act2 {
   color: white;
-  background-color: #ff5722;
-  border: 1px solid #ff5722;
+  background-color: #fd7c16;
+  border: 1px solid #fd7c16;
 }
 
 .card {
@@ -907,14 +907,14 @@ color: #000000;
   font-size: 10px;
 }
 .adds {
-  color: #ff5722;
-  border: 1px solid #ff5722;
+  color: #fd7c16;
+  border: 1px solid #fd7c16;
   border-radius: 100px;
   padding: 5px;
 }
 .none {
-  color: #ff5722;
-  border: 1px solid #ff5722;
+  color: #fd7c16;
+  border: 1px solid #fd7c16;
   border-radius: 100px;
   margin-right: 3px;
   padding: 5px;
@@ -924,14 +924,14 @@ color: #000000;
   margin-right: 5px;
 }
 .yellow {
-  color: #ff5722 !important;
+  color: #fd7c16 !important;
 }
 .b-yellow {
   color: #414141;
   padding: 5px 20px;
   border-radius: 100px;
-  color: #ff5722;
-  border: 1px solid #ff5722 !important;
+  color: #fd7c16;
+  border: 1px solid #fd7c16 !important;
   width: 230px;
   margin: 17px;
 }
@@ -940,12 +940,12 @@ color: #000000;
   color: #414141;
   padding: 5px 20px;
   border-radius: 100px;
-  color: #ff5722;
-  border: 1px solid #ff5722 !important;
+  color: #fd7c16;
+  border: 1px solid #fd7c16 !important;
 }
 
 .btn-yellow {
-  background-color: #ff5722 !important;
+  background-color: #fd7c16 !important;
   border-radius: 100px;
   color: #414141;
   padding: 5px 10px;
@@ -953,7 +953,7 @@ color: #000000;
 }
 
 .btn-yellow2 {
-  background-color: #ff5722 !important;
+  background-color: #fd7c16 !important;
   border-radius: 100px;
   color: #414141;
 }
@@ -973,7 +973,7 @@ color: #000000;
   font-size: 12px;
 }
 .wt-h {
-  color: #ff5722;
+  color: #fd7c16;
 }
 .wt-p {
   font-size: 10px;
@@ -995,7 +995,7 @@ color: #000000;
   /* border: 1px solid #00000026; */
 }
 .rate-box i {
-  color: #ff5722;
+  color: #fd7c16;
 }
 
 .over {
@@ -1185,4 +1185,10 @@ height: 101px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 13px;
 margin-top: 40px;
+}
+.bg:active , .bg:hover {
+  background-color: #fd7c16;
+  color: white;
+
+  
 }
