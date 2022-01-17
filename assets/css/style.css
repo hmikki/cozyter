@@ -361,7 +361,15 @@ input.form-control {
   padding: 0;
   margin:0 20px ;
 }
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
 
+}
+
+.btn {
+  outline: none !important;
+}
 .sign-in2:hover{
   background-color: white;
 border: 1px solid  #fd7c16;
