@@ -124,12 +124,13 @@ $('#r11').on('click', function(){
   });
 
   $(".addcard").click((function(){
-  $( `     <div class="card mb-3 slidecard ">
+  $( `       <div class="card mb-3 slidecard ">
   <div class="plus">
     <!-- <i class="far fa-plus-circle plus" style="font-size: 40px"></i> -->
   </div>
 
-  <div class="card-img-top">
+  <div class="card-img-top contdelte">
+    <i class="far fa-times-circle delete2" ></i>
     <img class="card-img-top" src="../assets/img/addpics.png" alt="Card image cap" />
   </div>
   <div class="card-body">
@@ -199,6 +200,13 @@ $('#r11').on('click', function(){
   </div>
 </div>` ).prependTo( $( ".cont-card" ) );
 
+
+$(".delete2").click((function(){
+
+  $(this).parents().find(".slidecard").remove();
+
+}));
+
 }));
 
 $(".added").click((function(){
@@ -207,3 +215,4 @@ $(".added").click((function(){
 `);
 $(this).fadeOut()
 }));
+
