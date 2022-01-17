@@ -21,11 +21,12 @@
   <script src="https://unpkg.com/feather-icons"></script>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
-<style>
-  .owl-stage , .owl-stage-outer{
-    height: 36px;
-  }
-</style>
+  <style>
+    .owl-stage,
+    .owl-stage-outer {
+      height: 36px;
+    }
+  </style>
 </head>
 
 <body>
@@ -75,30 +76,66 @@
     </div>
   </div>
   <section onclick="closeNav()">
+    <div class="box23" data-toggle="modal" data-target="#tasneef">
+      <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 3C19.0688 3 23.625 7.05 23.625 12C23.625 16.95 19.0688 21 13.5 21C7.93125 21 3.375 16.95 3.375 12C3.375 7.05 7.93125 3 13.5 3ZM13.5 1.5C7.00313 1.5 1.6875 6.225 1.6875 12C1.6875 17.775 7.00313 22.5 13.5 22.5C19.9969 22.5 25.3125 17.775 25.3125 12C25.3125 6.225 19.9969 1.5 13.5 1.5Z" fill="black"/>
+        <path d="M20.25 11.25H14.3438V6H12.6562V11.25H6.75V12.75H12.6562V18H14.3438V12.75H20.25V11.25Z" fill="black"/>
+        </svg>
+        
+    </div>
     <div class="owl-carousel" style="height: 36px; font-size: 13px">
-      <div class="box23" data-toggle="modal" data-target="#tasneef">
-        <i class="fas fa-plus"></i>
-      </div>
+     
 
       <div class="box2 act2" style="width: 123px">
-        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+
+        <a class="descr"> الاطباق الرئيسية <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i> </a>
+        <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
             fill="black" />
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
-          
-
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-
-        <a class="descr"> الاطباق الرئيسية </a>
       </div>
       <div class="box2">
-   
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
 
+
+
+
+
+        <a class="descr"> الاطباق الثانوية <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i> </a>
+        <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
+            fill="black" />
+          <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
+        </svg>
+      </div>
+      <div class="box2">
+
+
+
+        <a class="descr"> المقبلات
+
+          <i class="far fa-times-circle delte" data-toggle="modal" data-target="#deletes"></i></a>
+        <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
+            fill="black" />
+          <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
+        </svg>
+      </div>
+      <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -106,9 +143,13 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-        <a class="descr"> الاطباق الثانوية </a>
       </div>
       <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -116,13 +157,13 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        </svg>
-        <a class="descr"> المقبلات</a>
       </div>
       <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -130,12 +171,13 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        </svg>
-        <a class="descr"> المشروبات</a>
       </div>
       <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -143,12 +185,13 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-     
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        <a class="descr"> الاضافات</a>
       </div>
       <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -156,12 +199,13 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-       
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        <a class="descr"> الاطباق الثانوية </a>
       </div>
       <div class="box2">
+
+
+        </svg>
+        <a class="descr"> المشروبات <i class="far fa-times-circle delte" data-toggle="modal"
+            data-target="#deletes"></i></a>
         <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
@@ -169,37 +213,6 @@
           <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
         </svg>
 
-
-     
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        <a class="descr"> المقبلات</a>
-      </div>
-      <div class="box2">
-        <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
-            fill="black" />
-          <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
-        </svg>
-
-       
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        <a class="descr"> المشروبات</a>
-      </div>
-      <div class="box2">
-        <svg width="17" height="17" class="edt" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M11.1981 1.07722L1.12013 11.1552C0.969476 11.3055 0.870687 11.4999 0.838133 11.7102L0.133133 16.3042C0.109343 16.4594 0.122416 16.618 0.171292 16.7671C0.220169 16.9163 0.303477 17.0519 0.414475 17.1629C0.525473 17.2739 0.661044 17.3572 0.810216 17.4061C0.959387 17.4549 1.11797 17.468 1.27313 17.4442L5.86813 16.7392C6.0783 16.7069 6.27271 16.6085 6.42313 16.4582L16.5011 6.38022C16.6886 6.19269 16.7939 5.93839 16.7939 5.67322C16.7939 5.40806 16.6886 5.15375 16.5011 4.96622L12.6111 1.07622C12.4236 0.889057 12.1696 0.783936 11.9046 0.783936C11.6397 0.783936 11.3856 0.889057 11.1981 1.07622V1.07722ZM2.31713 15.2612L2.76513 12.3372L11.9051 3.19722L14.3801 5.67322L5.24013 14.8132L2.31713 15.2612Z"
-            fill="black" />
-          <path d="M9.44189 5.10421L10.5019 4.04321L13.7439 7.28321L12.6829 8.34421L9.44189 5.10421Z" fill="black" />
-        </svg>
-
-     
-        <i class="far fa-times-circle delte" 
-        data-toggle="modal" data-target="#deletes"></i>
-        <div class="descr"> الاضافات</div>
       </div>
     </div>
     <div class="d-flex justify-content-center addcard mt-4">
@@ -212,7 +225,9 @@
             <!-- <i class="far fa-plus-circle plus" style="font-size: 40px"></i> -->
           </div>
 
-          <div class="card-img-top">
+          <div class="card-img-top contdelte">
+            <i class="far fa-times-circle delete2" data-toggle="modal"
+            data-target="#deletes"></i>
             <img class="card-img-top" src="../assets/img/addpics.png" alt="Card image cap" />
           </div>
           <div class="card-body">
@@ -281,15 +296,17 @@
             </div>
           </div>
         </div>
-        <div class="card mb-3">
-          <div class="over text-center">
+        <div class="card mb-3 contdelte2">
+          <div class="over text-center contdelte2">
             <h1>تغيير الصورة</h1>
           </div>
+          <i class="far fa-times-circle delete3" data-toggle="modal"
+          data-target="#deletes"></i>
           <img class="card-img-top" src="../assets/img/pizza.jpg" alt="Card image cap" />
           <div class="card-body">
             <div class="d-flex justify-content-between">
               <div>
-                <h1>
+                <h1  data-toggle="modal" data-target="#exampleModalCenter">
                   بيتزا ببروني
                   <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1_2072)">
@@ -308,7 +325,7 @@
 
 
                 </h1>
-                <p>
+                <p style="width: 170px;"  data-toggle="modal" data-target="#subs">
                   <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1_2072)">
                       <path fill-rule="evenodd" clip-rule="evenodd"
@@ -329,7 +346,7 @@
                 </p>
               </div>
               <div class="row">
-                <p>
+                <p  data-toggle="modal" data-target="#price">
                   10.ر.س<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1_2072)">
                       <path fill-rule="evenodd" clip-rule="evenodd"
@@ -430,7 +447,7 @@
           </p>
           <div class="row justify-content-between">
             <button class="btn w-auto btn-yellow px-5 mt-3">حذف</button>
-            <button class="btn adds px-5 mt-3"> عودة</button>
+            <button class="btn adds px-5 mt-3" data-dismiss="modal"> عودة</button>
           </div>
 
         </div>
