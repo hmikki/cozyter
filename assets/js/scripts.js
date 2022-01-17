@@ -96,6 +96,22 @@ $('#r11').on('click', function(){
        
     });
 
+    $(".delte").fadeOut();
+
+    $(".descr").mouseenter(function(){
+        $(".edt").fadeOut();
+        $(".delte").fadeIn();
+
+       
+    });
+    $(".descr").mouseleave(function(){
+        $(".edt").fadeIn();
+        $(".delte").fadeOut();
+
+       
+    });
+
+    
     $('.delete').fadeOut();
 
     $(".cont-shop").click(function(){
@@ -107,5 +123,87 @@ $('#r11').on('click', function(){
 
   });
 
+  $(".addcard").click((function(){
+  $( `     <div class="card mb-3 slidecard ">
+  <div class="plus">
+    <!-- <i class="far fa-plus-circle plus" style="font-size: 40px"></i> -->
+  </div>
 
- 
+  <div class="card-img-top">
+    <img class="card-img-top" src="../assets/img/addpics.png" alt="Card image cap" />
+  </div>
+  <div class="card-body">
+    <div class="d-flex justify-content-between">
+      <div>
+        <p class="m-0 p-0" style="color: black" data-toggle="modal" data-target="#exampleModalCenter">
+          اسم الطبق
+          <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_2072)">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.59882 2.85398L1.55982 9.90858C1.48449 10.0138 1.4351 10.1499 1.41882 10.2971L1.06632 13.5129C1.05443 13.6215 1.06096 13.7325 1.0854 13.8369C1.10984 13.9413 1.15149 14.0362 1.20699 14.1139C1.26249 14.1916 1.33028 14.25 1.40486 14.2842C1.47945 14.3184 1.55874 14.3275 1.63632 14.3109L3.93382 13.8174C4.03891 13.7948 4.13611 13.7259 4.21132 13.6207L9.25032 6.56608C9.34406 6.43481 9.39672 6.2568 9.39672 6.07118C9.39672 5.88557 9.34406 5.70755 9.25032 5.57628L7.30532 2.85328C7.21158 2.72227 7.08453 2.64868 6.95207 2.64868C6.81961 2.64868 6.69257 2.72227 6.59882 2.85328V2.85398ZM2.15832 12.7828L2.38232 10.736L6.95232 4.33798L8.18982 6.07118L3.61982 12.4692L2.15832 12.7828Z"
+                fill="black" />
+              <path d="M5.7207 5.67288L6.2507 4.93018L7.8717 7.19818L7.3412 7.94088L5.7207 5.67288Z"
+                fill="black" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_2072">
+                <rect width="10" height="14" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+
+        </p>
+        <p class="m-0 p-0" data-toggle="modal" data-target="#subs">
+          الوصف
+          <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_2072)">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.59882 2.85398L1.55982 9.90858C1.48449 10.0138 1.4351 10.1499 1.41882 10.2971L1.06632 13.5129C1.05443 13.6215 1.06096 13.7325 1.0854 13.8369C1.10984 13.9413 1.15149 14.0362 1.20699 14.1139C1.26249 14.1916 1.33028 14.25 1.40486 14.2842C1.47945 14.3184 1.55874 14.3275 1.63632 14.3109L3.93382 13.8174C4.03891 13.7948 4.13611 13.7259 4.21132 13.6207L9.25032 6.56608C9.34406 6.43481 9.39672 6.2568 9.39672 6.07118C9.39672 5.88557 9.34406 5.70755 9.25032 5.57628L7.30532 2.85328C7.21158 2.72227 7.08453 2.64868 6.95207 2.64868C6.81961 2.64868 6.69257 2.72227 6.59882 2.85328V2.85398ZM2.15832 12.7828L2.38232 10.736L6.95232 4.33798L8.18982 6.07118L3.61982 12.4692L2.15832 12.7828Z"
+                fill="black" />
+              <path d="M5.7207 5.67288L6.2507 4.93018L7.8717 7.19818L7.3412 7.94088L5.7207 5.67288Z"
+                fill="black" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_2072">
+                <rect width="10" height="14" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+
+        </p>
+      </div>
+      <div class="row">
+        <p style="color: black" data-toggle="modal" data-target="#price">
+          السعر
+          <svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_1_2072)">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M6.59882 2.85398L1.55982 9.90858C1.48449 10.0138 1.4351 10.1499 1.41882 10.2971L1.06632 13.5129C1.05443 13.6215 1.06096 13.7325 1.0854 13.8369C1.10984 13.9413 1.15149 14.0362 1.20699 14.1139C1.26249 14.1916 1.33028 14.25 1.40486 14.2842C1.47945 14.3184 1.55874 14.3275 1.63632 14.3109L3.93382 13.8174C4.03891 13.7948 4.13611 13.7259 4.21132 13.6207L9.25032 6.56608C9.34406 6.43481 9.39672 6.2568 9.39672 6.07118C9.39672 5.88557 9.34406 5.70755 9.25032 5.57628L7.30532 2.85328C7.21158 2.72227 7.08453 2.64868 6.95207 2.64868C6.81961 2.64868 6.69257 2.72227 6.59882 2.85328V2.85398ZM2.15832 12.7828L2.38232 10.736L6.95232 4.33798L8.18982 6.07118L3.61982 12.4692L2.15832 12.7828Z"
+                fill="black" />
+              <path d="M5.7207 5.67288L6.2507 4.93018L7.8717 7.19818L7.3412 7.94088L5.7207 5.67288Z"
+                fill="black" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_2072">
+                <rect width="10" height="14" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>` ).prependTo( $( ".cont-card" ) );
+
+}));
+
+$(".added").click((function(){
+
+  $(this).parent().prepend(`    <input type="text" class="form-control d-inline" >
+`);
+$(this).fadeOut()
+}));
