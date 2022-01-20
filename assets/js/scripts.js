@@ -54,7 +54,6 @@ $( document ).ready(function() {
 
 
 
-
 $('#r11').on('click', function(){
     $(this).parent().find('a').trigger('click')
   })
@@ -210,11 +209,22 @@ $(".delete2").click((function(){
 }));
 
 $(".added").click((function(){
-
-  $(this).parent().prepend(`    <input type="text" class="form-control d-inline" >`);
-$(this).fadeOut()
+  $(this).parent().prepend(` <input type="text" class="form-control d-inline mt-2 w-50" >`);
 }));
+
 
 $(".clicked").click(function(e) {
   $(".clicker").click();
+});
+
+$("#hedding").fadeOut();
+
+$(".shows").click(function(e) {
+  $("#hedding").fadeToggle();
+});
+
+$("#hedding2").fadeOut();
+
+$(".shows2").click(function(e) {
+  $("#hedding2").fadeToggle();
 });
