@@ -49,8 +49,8 @@ $( document ).ready(function() {
         button[0].click();
         //$("#amg")[0].style.display="none";
     });
+  
 });
-
 
 
 
@@ -211,8 +211,10 @@ $(".delete2").click((function(){
 
 $(".added").click((function(){
 
-  $(this).parent().prepend(`    <input type="text" class="form-control d-inline" >
-`);
+  $(this).parent().prepend(`    <input type="text" class="form-control d-inline" >`);
 $(this).fadeOut()
 }));
 
+$(".clicked").click(function(e) {
+  $(".clicker").click();
+});
