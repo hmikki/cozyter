@@ -783,11 +783,18 @@ color: #000000;
   font-size: 30px;
 }
 .out {
-  color: red;
-  border: 1px solid red;
+  color: #fd7c16;
+  border: 1px solid #fd7c16;
   padding: 1px 10px;
   border-radius: 100px;
   font-size: 21px;
+
+}
+
+.out:hover{
+  background-color: #fd7c16;
+ color: #000000;
+  
 }
 .save {
   background-color: #fd7c16;
@@ -843,7 +850,7 @@ color: #000000;
 .lne6 {
   height: 0;
   width: 85%;
-
+background-color:rgba(0, 0, 0, 0.12) ;
   border:  1px solid rgba(0, 0, 0, 0.12);
 
 }
