@@ -220,11 +220,14 @@ $(".clicked").click(function(e) {
 $("#hedding").fadeOut();
 
 $(".shows").click(function(e) {
-  $("#hedding").fadeToggle();
+  $("#hedding").fadeIn();
+
 });
+
+
 
 $("#hedding2").fadeOut();
 
 $(".shows2").click(function(e) {
-  $("#hedding2").fadeToggle();
+  $("#hedding2").fadeIn();
 });
