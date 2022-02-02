@@ -1236,7 +1236,8 @@ height: 81px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-  background-color: #FD7C16 !important;
+  background-color: white !important;
+  text-decoration: underline;
   color: black;
   height: 81px;
 
