@@ -795,7 +795,14 @@ color: #000000;
 .out:hover{
   background-color: #fd7c16;
  color: white;
-  
+}
+.out.red_btn{
+  color: #FE3A3A;
+  border: 1px solid #FE3A3A;
+}
+.out.red_btn:hover{
+  background-color: #FE3A3A;
+  color: white;
 }
 .save {
   background-color: #fd7c16;
@@ -942,7 +949,7 @@ background-color:rgba(0, 0, 0, 0.12) ;
   color: #5c5c5c;
 }
 .nu {
-  top: 20%;
+  top: 10%;
   right: 20%;
   position: absolute;
   background-color: red;
@@ -1287,4 +1294,29 @@ font-size: 24px;    }
   color: #fd7c16 !important; 
   border: 1px solid #fd7c16;
   border-radius: 100px;
+}
+.sent_btn{
+  background-color: #FD7C16;
+  border-radius: 100px;
+  font-size: 14px;
+}
+.send_btn{
+  width: 56px;
+  padding: 4px 43px 4px 43px;
+  border: 1px solid #FD7C16;
+  color: #FD7C16;
+  border-radius: 100px;
+  font-size: 14px;
+  height: 36px;
+}
+.in_progress_btn{
+  width: 85px;
+  border: 1px solid #FD7C16;
+  color: #FD7C16;
+  border-radius: 100px;
+  font-size: 14px;
+}
+.extra_order{
+  border: 1px solid lightgray;
+  border-radius: 10px;;
 }

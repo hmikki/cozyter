@@ -231,3 +231,13 @@ $("#hedding2").fadeOut();
 $(".shows2").click(function(e) {
   $("#hedding2").fadeIn();
 });
+
+$('#send_btn').click(function(e){
+    $('#send_btn')[0].innerText = 'مرسل';
+});
+$('#send_btn1').click(function(e){
+    $('#send_btn1')[0].innerText = 'مرسل';
+});
+$('#send_btn2').click(function(e){
+    $('#send_btn2')[0].innerText = 'مرسل';
+})
