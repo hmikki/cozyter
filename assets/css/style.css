@@ -1320,3 +1320,12 @@ font-size: 24px;    }
   border: 1px solid lightgray;
   border-radius: 10px;;
 }
+.logout{
+  color: #FE3A3A;
+  border: 1px solid #FE3A3A;
+}
+.logout:hover{
+  color: #FE3A3A;
+  border: 1px solid #FE3A3A;
+  background: white;
+}
