@@ -854,6 +854,13 @@ color: #000000;
   filter: blur(4px);
   transform: rotate(180deg);
 }
+.newline{
+  width: 100%;
+height: 0px;
+opacity: 0.5;
+border: 0.1px solid rgba(0, 0, 0, 0.2);
+transform: rotate(180deg);
+}
 
 .lne6 {
   height: 0;
