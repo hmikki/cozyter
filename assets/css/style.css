@@ -848,11 +848,8 @@ color: #000000;
 .lne {
   height: 0;
   width: 100%;
-
   opacity: 0.2;
-  border: 1px solid #000000;
-  filter: blur(4px);
-  transform: rotate(180deg);
+  border-bottom: 1px solid #000000;
 }
 
 .lne6 {
