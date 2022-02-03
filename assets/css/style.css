@@ -1328,3 +1328,11 @@ font-size: 24px;    }
   border: 1px solid #FE3A3A;
   background: white;
 }
+.order_counter{
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+}
+.orange{
+  color: #FD7C16;
+}
