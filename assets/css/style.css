@@ -509,7 +509,7 @@ svg.feather {
 .card {
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.08);
   position: relative;
-  max-width: 330px;
+  /*max-width: 330px;*/
 }
 .card .plus {
   position: absolute;
@@ -520,14 +520,16 @@ svg.feather {
 .card-body,
 .card img {
   border-radius: 5px;
-  width: 330;
+  width: 400px;
+}
+.card img{
+  width: 398px;
 }
 .cont-card {
   padding: 10px 30px;
 }
 .card-img-top {
-
-  height: 150px;
+  height: 200px;
   width:328px;
   background-color: #c4c4c4;
 }
@@ -1354,4 +1356,7 @@ a.index_block, a.index_block:hover{
 button.dohave.send_btn{
   padding: 0px 10px 0px 10px;
   width: unset;
+}
+.owl-item {
+  width: 120px !important;
 }
