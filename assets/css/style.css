@@ -1351,3 +1351,7 @@ a.index_block, a.index_block:hover{
   color: black;
   text-decoration: none;
 }
+button.dohave.send_btn{
+  padding: 0px 10px 0px 10px;
+  width: unset;
+}

@@ -241,3 +241,15 @@ $('#send_btn1').click(function(e){
 $('#send_btn2').click(function(e){
     $('#send_btn2')[0].innerText = 'مرسل';
 })
+$('#proggress_btn').click(function(e){
+    $('#proggress_btn')[0].innerText = 'جاهز';
+    $('#proggress_btn')[0].style.width= '105px';
+});
+$('#proggress_btn1').click(function(e){
+    $('#proggress_btn1')[0].innerText = 'جاهز';
+    $('#proggress_btn1')[0].style.width= '105px';
+});
+$('#proggress_btn2').click(function(e){
+    $('#proggress_btn2')[0].innerText = 'جاهز';
+    $('#proggress_btn2')[0].style.width= '105px';
+})
