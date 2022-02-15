@@ -1304,15 +1304,18 @@ font-size: 24px;    }
 .sent_btn{
   background-color: #FD7C16;
   border-radius: 100px;
-  font-size: 14px;
+  font-size: 20px;
+  width: 56px;
+  padding: 2px 43px 0px 43px;
+  height: 36px;
 }
 .send_btn{
   width: 56px;
-  padding: 4px 43px 4px 43px;
+  padding: 2px 43px 0px 43px;
   border: 1px solid #FD7C16;
   color: #FD7C16;
   border-radius: 100px;
-  font-size: 14px;
+  font-size: 20px;
   height: 36px;
 }
 .in_progress_btn{
