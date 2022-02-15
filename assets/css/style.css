@@ -520,16 +520,17 @@ svg.feather {
 .card-body,
 .card img {
   border-radius: 5px;
-  width: 400px;
+  width: 100%;
 }
 .card img{
-  width: 398px;
+  width: 100%;
 }
 .cont-card {
+  width: 100%;
   padding: 10px 30px;
 }
 .card-img-top {
-  height: 200px;
+  height: 230px;
   width:328px;
   background-color: #c4c4c4;
 }
@@ -1359,4 +1360,9 @@ button.dohave.send_btn{
 }
 .owl-item {
   width: 120px !important;
+}
+.owl-carousel .box2:hover, .owl-carousel .box2:active{
+  color: white;
+  background-color: #fd7c16;
+  border: 1px solid #fd7c16;
 }
