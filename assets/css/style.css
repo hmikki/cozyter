@@ -436,6 +436,10 @@ border-radius: 100px;
   font-size: 75px;
   color: #fd7c16;
 }
+.fa-pen{
+  font-size: 18px;
+  color: #fd7c16;
+}
 .modal-flex {
   display: flex;
   flex-direction: column;
@@ -527,10 +531,10 @@ svg.feather {
 }
 .cont-card {
   width: 100%;
-  padding: 10px 30px;
+  padding: 10px 40px;
 }
 .card-img-top {
-  height: 230px;
+  height: 200px;
   width:328px;
   background-color: #c4c4c4;
 }
@@ -1365,4 +1369,7 @@ button.dohave.send_btn{
   color: white;
   background-color: #fd7c16;
   border: 1px solid #fd7c16;
+}
+.fa-minus-circle{
+  font-size: 20px;
 }

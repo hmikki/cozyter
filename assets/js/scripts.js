@@ -209,7 +209,7 @@ $(".delete2").click((function(){
 }));
 
 $(".added").click((function(){
-  $(this).parent().prepend(` <input type="text" class="form-control d-inline mt-2 w-50" >`);
+  $(this).parent().prepend('<input type="text" class="form-control mt-2 mb-2 w-100" >');
 }));
 
 
@@ -252,4 +252,16 @@ $('#proggress_btn1').click(function(e){
 $('#proggress_btn2').click(function(e){
     $('#proggress_btn2')[0].innerText = 'جاهز';
     $('#proggress_btn2')[0].style.width= '105px';
+})
+$('#delete4').click(function(e){
+    $('#delete_div_4').attr("style", "display: none !important");
+})
+$('#delete1').click(function(e){
+    $('#delete_div_1').attr("style", "display: none !important");
+})
+$('#delete2').click(function(e){
+    $('#delete_div_2').attr("style", "display: none !important");
+})
+$('#delete3').click(function(e){
+    $('#delete_div_3').attr("style", "display: none !important");
 })
