@@ -4,32 +4,82 @@
 <head>
   <meta charset="UTF-8" />
   <title>cozyter</title>
-
-  <link rel="stylesheet" href="../assets/css/normlaize.css">
-  <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/normlaize.css" />
+  <link
+          rel="shortcut icon"
+          href="../assets/img/Logo.png"
+          type="image/x-icon"
+  />
+  <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          crossorigin="anonymous"
+  />
+  <link
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"
+  />
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+          integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
   <script src="https://unpkg.com/feather-icons"></script>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap"
+          rel="stylesheet"
+  />
+  <meta
+          name="viewport"
+          content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no"
+  />
+  <style>
 
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
-  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
-  
+  </style>
 </head>
 
 <body>
 
-  <div class="third-nav">
-    <div class="container-fluid">
-      <div class="row justify-content-around align-content-center">
-        <p></p>
+<!--  <div class="third-nav">-->
+<!--    <div class="container-fluid">-->
+<!--      <div class="row justify-content-around align-content-center">-->
+<!--        <p></p>-->
+<!--        <p>الفاتورة</p>-->
+<!--        <p><a href="record.html"  style="color: #fd7c16;"><i data-feather="corner-up-left"></i></a></p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<div class="third-nav">
+  <div class="container-fluid">
+
+    <div class="row align-content-center justify-content-between">
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
         <p>الفاتورة</p>
-        <p><a href="record.html"  style="color: #fd7c16;"><i data-feather="corner-up-left"></i></a></p>
       </div>
+      <div class="col-2 text-left">
+        <p><a href="record.html" style="color: #fd7c16">
+          <i data-feather="corner-up-left" ></i></a>
+        </p>
+      </div>
+
+
     </div>
   </div>
+</div>
   <div class="  row justify-content-center align-items-center">
     <div class="fatoora">
       <p class="text-center fir-fatoora" style="margin: 20px 0;"> بيتزا هت الشوقية<br>شارع عبد الله كوشك<br>2-9-2021 15/30</p>
@@ -77,9 +127,9 @@
   <div class="row justify-content-center">
     <button class="btn w-auto btn-yellow2 bg2 px-3 mt-3" data-toggle="modal" data-target="#exampleModalCenter"> تحميل الفاتورة</button>
   </div>
-  <div class="row justify-content-center">
-    <button class="btn adds bg px-5 mt-1" data-toggle="modal" data-target="#exampleModalCenter2"> عودة</button>
-  </div>
+<!--  <div class="row justify-content-center">-->
+<!--    <button class="btn adds bg px-5 mt-1" data-toggle="modal" data-target="#exampleModalCenter2"> عودة</button>-->
+<!--  </div>-->
   <button onclick="sweet()" id="openSWAL" style="display: none;">ادفع</button>
 
   <!-- Modal -->
@@ -104,7 +154,9 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   <script src="../assets/js/scripts.js" type="application/javascript"></script>
-
+<script>
+      feather.replace();
+    </script>
 
 </body>
 
