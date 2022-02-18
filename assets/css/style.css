@@ -1255,6 +1255,9 @@ height: 81px;
   height: 81px;
 
 }
+.nav-link.active{
+  height: unset !important;
+}
 .bod{
   border-left:  0.5px solid #BEBEBE;
 }
@@ -1372,4 +1375,13 @@ button.dohave.send_btn{
 }
 .fa-minus-circle{
   font-size: 20px;
+}
+.nav-item.tab{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item.tab a {
+  font-size: 18px;
 }

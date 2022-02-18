@@ -209,7 +209,7 @@ $(".delete2").click((function(){
 }));
 
 $(".added").click((function(){
-  $(this).parent().prepend('<input type="text" class="form-control mt-2 mb-2 w-100" >');
+  $(this).parent().prepend('<input type="text" class="newInput form-control mt-2 mb-2 w-100" >');
 }));
 
 
@@ -265,3 +265,12 @@ $('#delete2').click(function(e){
 $('#delete3').click(function(e){
     $('#delete_div_3').attr("style", "display: none !important");
 })
+
+ $('.newInput').on('keypress', function(e) {
+    if (e.keyCode == 13) {
+      const newTask = $(this).val();
+      if (newTask) {
+        $('.newInput').value.append('<br/>');
+      }
+    }
+  });
