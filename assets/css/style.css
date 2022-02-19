@@ -1079,8 +1079,8 @@ background-color:rgba(0, 0, 0, 0.12) ;
 }
 
 .over {
-  height: 150px;
-  width: 328px;
+  height: 220px;
+  width: 100%;
   background-color: rgba(196, 196, 196, 0.5);
   position: absolute;
   display: flex;
@@ -1384,4 +1384,10 @@ button.dohave.send_btn{
 }
 .nav-item.tab a {
   font-size: 18px;
+}
+.card-img-top.newimg{
+  height: 220px !important;
+}
+.modal-content{
+  width: 82%;
 }
