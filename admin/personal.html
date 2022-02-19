@@ -25,26 +25,23 @@
   <link rel="stylesheet"  href="../assets/css/rate.css"/>
 </head>
 
-<body><div id="mySidebar" class="sidebar">
+<body>
+<div id="mySidebar" class="sidebar">
   <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
   <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
   <a class="text-right" href="index.html">
     <i data-feather="home"></i>
-
     الرئيسية
   </a>
   <div class="dropdown-divider"></div>
   <a class="text-right" href="userss.html">
     <i class="far fa-address-card"></i>
-
-
     العضويات
   </a>
 
   <div class="dropdown-divider"></div>
   <a class="text-right" href="notifications.html">
-    <i data-feather="bell"></i> 
-
+    <i data-feather="bell"></i>
     الاشعارات </a>
   <div class="dropdown-divider"></div>
 
@@ -134,11 +131,16 @@
   <div class="third-nav">
     <div class="container-fluid">
       <div class="row justify-content-around align-content-center">
-       <p onclick="openNav()">          <i data-feather="align-justify"></i>
-       </p>
-       <p   onclick="closeNav()">ملف المنشأة</p>
+        <div class="col-2" onclick="openNav()">
+          <p onclick="openNav()"><i data-feather="align-justify"></i>
+          </p>
+        </div>
+        <div class="col-8 text-center" onclick="closeNav()">
+          <p onclick="closeNav()">ملف المنشأة</p>
+        </div>
+
 <!--       <p   onclick="closeNav()"><i class="far fa-moon"></i></p>-->
-        <p></p>
+        <div class="col-2"> <p></p></div>
       </div> 
     </div>
   </div>
@@ -146,7 +148,7 @@
 
   <section onclick="closeNav()">
   <div class="  row justify-content-center align-items-center flex-column">
-    <p class="camera"><img src="../assets/img/camera.png" alt="" class="clicked"></p>
+    <p class="camera"><img id="profileImage" src="../assets/img/camera.png" alt="" class="mt-3 clicked" width="190" height="179"></p>
     <p class="change"><a href="">تغيير الصورة</a></p>
   </div>
   <div class="row justify-content-start justify-content-md-center mr-2">
@@ -193,14 +195,14 @@
    </div>
     
  <div class="row justify-content-lg-center mr-3 mt-2">
-   <a href="" style="color: rgba(0, 0, 0, 0.5);">تغيير كلمة المرور</a>
+   <a href="changepass.html" style="color: rgba(0, 0, 0, 0.5);">تغيير كلمة المرور</a>
  </div>
  <div class="row justify-content-around justify-content-lg-center mt-4">
    <button class="btn out logout">تسجيل الخروج </button>
    <button class="btn bg2 save mr-lg-4">حفظ</button>
 
  </div>
- <input type="file" class="d-none clicker"  >
+ <input type="file" class="d-none clicker" id="image" >
 
 </section>
 </div>
