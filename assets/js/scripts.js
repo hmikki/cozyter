@@ -298,7 +298,7 @@ e.parentNode.remove();
        var answer = $("input[name=extra_row]").val();
                 $('#extra').append('<div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_4">'+
                                            '<label class="form-check-label w-50 float-right" >'+answer+'</label>'+
-                                            '<button class="btn bg none w-75 float-left">غير متوفر</button>'+
+                                            '<button class="btn bg none pr-2 pl-2 float-left">غير متوفر</button>'+
                                             '<i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>'+
                                           '</div>');
        }
