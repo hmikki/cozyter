@@ -220,7 +220,7 @@ $(".delete2").click((function(){
 }));
 
 $(".added").click((function(){
-  $(this).parent().prepend('<input type="text" class="newInput form-control mt-2 mb-2 w-100" >');
+  $(this).parent().prepend('<form id="inputWindow" onsubmit="return false"><input type="text" id="input1" name ="extra_row" class="newInput form-control mt-2 mb-2 w-100" ></form>');
 }));
 
 
@@ -276,12 +276,30 @@ $('#delete2').click(function(e){
 $('#delete3').click(function(e){
     $('#delete_div_3').attr("style", "display: none !important");
 })
+function deleteDiv(e){
+console.log(e.parentNode);
+e.parentNode.remove();
+//e.parentNode.attr("style", "display: none !important");
+}
 
- $('.newInput').on('keypress', function(e) {
-    if (e.keyCode == 13) {
-      const newTask = $(this).val();
-      if (newTask) {
-        $('.newInput').value.append('<br/>');
-      }
-    }
-  });
+// $('#inputWindow').on(function() {
+//console.log('here');
+//        var answer = $("input[name=extra_row]").val();
+//        console.log(answer);
+//         $('#extra').append('<div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_4">'+
+//                                    '<label class="form-check-label w-50 float-right" >'+answer+'</label>'+
+//                                     '<button class="btn bg none w-75 float-left">غير متوفر</button>'+
+//                                     '<i class="mr-2 fas fa-minus-circle orange show" id="delete4"></i>'+
+//                                   '</div>');
+//
+//   });
+   $(document).on('keypress',function(e) {
+       if(e.which == 13) {
+       var answer = $("input[name=extra_row]").val();
+                $('#extra').append('<div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_4">'+
+                                           '<label class="form-check-label w-50 float-right" >'+answer+'</label>'+
+                                            '<button class="btn bg none w-75 float-left">غير متوفر</button>'+
+                                            '<i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>'+
+                                          '</div>');
+       }
+   });

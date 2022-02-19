@@ -46,43 +46,43 @@
     </div>
   </div>
   <section class="row justify-content-center align-items-center p-3 m-5 extra_order">
-    <div class="notif w-100">
+    <div id="extra" class="notif w-100">
       <div class="d-flex box-da mt-2">
         <p class="fav">الاضافات لهذا الطبق</p>
       </div>
       <div class="d-flex box-da mt-1 form-check form-check-inline">
         <input type="text" class="form-control  mb-1 w-50" id="hedding" >
       </div>
-      <div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_1">
+      <div class="d-flex box-da mt-1 form-check form-check-inline" >
 <!--        <label class="form-check-label w-50 float-right" >لحم<i class="fas fa-minus-circle show"></i></label>-->
         <label class="form-check-label w-50 float-right" >لحم</label>
         <button class="btn bg none w-75 float-left">غير متوفر</button>
-        <i class="mr-2 fas fa-minus-circle orange show" id="delete1"></i>
+        <i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>
       </div>
 
-      <div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_2">
+      <div class="d-flex box-da mt-1 form-check form-check-inline" >
 <!--        <label class="form-check-label w-50 float-right" >هلابينو<i class="fas fa-minus-circle shows"></i></label>-->
         <label class="form-check-label w-50 float-right" >هلابينو</label>
         <button class="btn bg none w-75 float-left">غير متوفر</button>
-        <i class="mr-2 fas fa-minus-circle orange show" id="delete2"></i>
+        <i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>
       </div>
-      <div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_3">
+      <div class="d-flex box-da mt-1 form-check form-check-inline" >
 <!--        <label class="form-check-label w-50 float-right" > زيتون<i class="fas fa-minus-circle shows"></i></label>-->
         <label class="form-check-label w-50 float-right" > زيتون</label>
         <button class="btn bg none w-75 float-left">غير متوفر</button>
-        <i class="mr-2 fas fa-minus-circle orange show" id="delete3"></i>
+        <i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>
       </div>
-      <div class="d-flex box-da mt-1 form-check form-check-inline" id="delete_div_4">
+      <div class="d-flex box-da mt-1 form-check form-check-inline">
 <!--        <label class="form-check-label w-50 float-right" >فطر<i class="fas fa-minus-circle shows"></i></label>-->
         <label class="form-check-label w-50 float-right" >فطر</label>
         <button class="btn bg none w-75 float-left">غير متوفر</button>
-        <i class="mr-2 fas fa-minus-circle orange show" id="delete4"></i>
+        <i class="mr-2 fas fa-minus-circle orange show" onclick="deleteDiv(this)"></i>
       </div>
-      <div class="d-flex box-da mt-1 form-check form-check-inline">
-        <label class="form-check-label mt-3"><span class="mt-3 out orange added" aria-hidden="true">اضافة</span></label>
-      </div>
-            </div>
 
+            </div>
+      <div class="d-flex box-da mt-1 form-check form-check-inline">
+          <label class="form-check-label mt-3"><span class="mt-3 out orange added" aria-hidden="true">اضافة</span></label>
+      </div>
           </section>
   <div class="col-12 mt-3 text-center m-0">
 <!--    <p class="m-0"><i class="fas fa-pen" data-dismiss="modal"></i></p>-->
