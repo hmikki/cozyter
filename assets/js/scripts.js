@@ -33,7 +33,7 @@ $( document ).ready(function() {
                 items:3
             },
             600:{
-                items:5
+                items:3
             },
             1000:{
                 items:8

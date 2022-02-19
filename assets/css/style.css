@@ -1365,9 +1365,9 @@ button.dohave.send_btn{
   padding: 0px 10px 0px 10px;
   width: unset;
 }
-.owl-item {
-  width: 120px !important;
-}
+/*.owl-item {*/
+/*  width: 120px !important;*/
+/*}*/
 .owl-carousel .box2:hover, .owl-carousel .box2:active{
   color: white;
   background-color: #fd7c16;
