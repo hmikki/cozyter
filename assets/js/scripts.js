@@ -303,3 +303,7 @@ e.parentNode.remove();
                                           '</div>');
        }
    });
+   $("body").on( 'scroll', function(){
+      $(".footer").attr("style", "position: relative !important; margin-top:30px !important");
+      console.log('hello');
+   });
