@@ -305,5 +305,25 @@ e.parentNode.remove();
    });
    $("body").on( 'scroll', function(){
       $(".footer").attr("style", "position: relative !important; margin-top:30px !important");
-      console.log('hello');
+
    });
+
+        var i= parseInt(0);
+    $('#add_to_cart1').on('click', function(){
+      $('#cart').attr("style", "display: block !important;");
+
+      var a = document.getElementById('cart').innerHTML;
+      var b = parseInt(a);
+      var d = b+i;
+      i++;
+      document.getElementById('cart').innerHTML = i;
+      });
+
+   $('#add_to_cart2').on('click', function(){
+      $('#cart').attr("style", "display: block !important;");
+      var a = document.getElementById('cart').innerHTML;
+            var b = parseInt(a);
+            var d = b+i;
+            i++;
+            document.getElementById('cart').innerHTML = i;
+      });

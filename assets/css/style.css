@@ -1420,3 +1420,9 @@ button.dohave.send_btn{
     position: relative !important;
   }
 }
+.nu.cart{
+  top: -8px !important;
+  right: unset !important;
+  left: 30px !important;
+  display: none;
+}
