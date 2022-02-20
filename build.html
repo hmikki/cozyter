@@ -25,27 +25,27 @@
 </head>
 
 <body >
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
-    <a class="text-right" href="index.html"><i data-feather="home"></i>
-      الرئيسية
-    </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="build.html"><i data-feather="calendar"></i>
-
-      حجز الطاولات
-    </a>    <div class="dropdown-divider"></div>
-    <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
-    <div class="dropdown-divider"></div>
-    <a class="text-right d-flex align-items-center py-3" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني
-    <div class="dropdown-divider"></div>
-    <a class="text-right   d-flex align-items-center py-3" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي      <span class="red">!</span></a>
-  </div>
+<div id="mySidebar" class="sidebar">
+  <!--    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+  <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+  <a class="text-right" href="index.html"><i data-feather="home"></i>
+    الرئيسية
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="build.html"><i data-feather="calendar"></i>
+    حجز الطاولات
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right d-flex align-items-center py-3" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right   d-flex align-items-center py-3" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي<span class="red">!</span></a>
+</div>
 
 
 <!--side bar -->
@@ -54,34 +54,36 @@
   <div class="third-nav" >
     <div class="container-fluid">
       
-      <div class="row align-content-start mr-3 mr-lg-5">
+      <div class="row">
         <div class="col-2">
        <p class="" onclick="openNav()"> <i data-feather="align-justify"></i></p>
         </div>
-        <div class="col-8">
+        <div class="col-8 text-center" onclick="closeNav()">
        <p class="" >حجز الطاولات </p>
         </div>
-        <div class="col-2">
+        <div class="col-2 text-left" onclick="closeNav()">
           <p></p>
         </div>
-
       </div>
-      <section onclick="closeNav()"> 
+    </div>
+  </div>
+<div class="container">
+      <section onclick="closeNav()">
 
         <p>احجز طاولتك مسبقا <span style="color: #FD7C16;">!</span></p>
-     
+
         <div  class="row justify-content-center align-items-center mt-5 flex-column" style="color: #C4C4C4;">
-   
-   
+
+
          <p>الخدمة تحت الانشاء</p>
          <h1 class="excla"><i class="fas fa-exclamation"></i></h1>
         </div>
-       
-        <div class="footer">
-          <p>جميع الحقوق محفوظة © 2021</p>
-        </div>
-   
+
       </section>
+</div>
+<div class="footer mt-5" style="position: absolute">
+  <p>جميع الحقوق محفوظة © 2021</p>
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Popper.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"

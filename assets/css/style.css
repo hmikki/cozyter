@@ -913,7 +913,7 @@ background-color:rgba(0, 0, 0, 0.12) ;
   top: 50%;
 }
 .footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -1390,4 +1390,17 @@ button.dohave.send_btn{
 }
 .modal-content{
   width: 82%;
+}
+.pizza_img{
+  height: unset !important;
+}
+.record_lne.lne{
+  margin: unset !important;
+}
+@media screen and (min-width: 412px){
+  .pizza_img{
+    width: 64px !important;
+    height: 69px !important;
+    margin-bottom: 10px;
+  }
 }
