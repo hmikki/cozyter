@@ -43,29 +43,30 @@
 
 
   <div class="owl-carousel mr-4" style="height: 70px;">
-    <div class="box2 act">الاطباق الرئيسية</div>
-    <div class="box2">الاطباق الثانوية</div>
-    <div class="box2">المقبلات</div>
-    <div class="box2">المشروبات</div>
-    <div class="box2">الاضافات</div>
-    <div class="box2">الاطباق الثانوية</div>
-    <div class="box2">المقبلات</div>
-    <div class="box2">المشروبات</div>
-    <div class="box2">الاضافات</div>
+    <div class="box2 act2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الرئيسية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الثانوية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المقبلات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المشروبات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاضافات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الثانوية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المقبلات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المشروبات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاضافات</div>
   </div>
   <div class="row justify-content-center">
     <div class="cont-card">
       <div class="card mb-3" >
-        <img class="card-img-top" src="assets/img/pizza.jpg" alt="Card image cap">
+        <img class="card-img-top newimg" src="assets/img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <div class="d-flex justify-content-between">
-            <div>
+            <div class="w-75">
               <h1>بيتزا ببروني</h1>
+              <p>Lorem ipsum dolor sit amet.</p>
               <a href="" data-toggle="modal" data-target="#exampleModalCenter">الاضافات</a>
 
             </div>
-            <div>
-              <p>10.65 ريال</p>
+            <div class="w-25">
+              <p style="font-size: 18px">10.65 ريال</p>
               <button class="btn add addMe" onclick="var i =document.getElementById('counter').innerText; i++; document.getElementById('counter').innerText= i">+</button>
               <a id="counter" class="theCount">0</a>
               <button class="btn add main" onclick="var i =document.getElementById('counter').innerText; i--; document.getElementById('counter').innerText= i">-</button>
@@ -81,16 +82,17 @@
         </div>
       </div>
       <div class="card mb-3" >
-        <img class="card-img-top" src="assets/img/pizza.jpg" alt="Card image cap">
+        <img class="card-img-top newimg" src="assets/img/pizza.jpg" alt="Card image cap">
         <div class="card-body">
           <div class="d-flex justify-content-between">
-            <div>
+            <div class="w-75">
               <h1>بيتزا ببروني</h1>
+              <p>Lorem ipsum dolor sit amet.</p>
               <a href="" data-toggle="modal" data-target="#exampleModalCenter">الاضافات</a>
 
             </div>
-            <div>
-              <p>10.65 ريال</p>
+            <div class="w-25">
+              <p style="font-size: 18px">10.65 ريال</p>
               <button class="btn add addMe" onclick="var i =document.getElementById('counter2').innerText; i++; document.getElementById('counter').innerText= i">+</button>
               <a id="counter2" class="theCount">0</a>
               <button class="btn add main" onclick="var i =document.getElementById('counter2').innerText; i--; document.getElementById('counter').innerText= i">-</button>

@@ -327,3 +327,6 @@ e.parentNode.remove();
             i++;
             document.getElementById('cart').innerHTML = i;
       });
+      $('.delete').on('click', function(){
+        $(this).parent().attr("style", "display: none !important");
+      });
