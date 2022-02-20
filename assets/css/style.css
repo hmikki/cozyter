@@ -931,6 +931,9 @@ background-color:rgba(0, 0, 0, 0.12) ;
   /*justify-content: center;*/
   /*padding-top: 5px;*/
 }
+.footer .footer_index{
+  position: unset !important;
+}
 
 .cont-bush {
   padding-top: 10px;
@@ -1414,5 +1417,8 @@ button.dohave.send_btn{
     position: absolute;
     /*position: absolute;*/
     bottom: 0;
+  }
+  .footer .footer_index{
+    position: relative !important;
   }
 }
