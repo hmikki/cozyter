@@ -29,7 +29,7 @@
   <div id="mySidebar" class="sidebar">
     <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
     <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
-    <a class="text-right" href="index.html">
+    <a class="text-right" href="basicfile.html">
       <i data-feather="home"></i>
   
       الرئيسية
@@ -60,7 +60,7 @@
   
       قيمنا    </a>
     <div class="dropdown-divider"></div>
-    <a class="text-right" href="#"><i class="fas fa-headset"></i>
+    <a class="text-right" href="whatcoitz.html"><i class="fas fa-headset"></i>
   
       الدعم الفني
     </a>
@@ -133,10 +133,15 @@
   <div class="third-nav">
     <div class="container-fluid">
       <div class="row justify-content-around align-content-center ">
-       <p onclick="openNav()">          <i data-feather="align-justify"></i>
-       </p>
-       <p   onclick="closeNav()">الاشعارات</p>
-       <p   onclick="closeNav()"></p>
+        <div class="col-2 text-right" onclick="openNav()">
+          <p onclick="openNav()"><i data-feather="align-justify"></i></p>
+        </div>
+        <div class="col-8 text-center" onclick="closeNav()">
+          <p onclick="closeNav()">الاشعارات</p>
+        </div>
+        <div class="col-2" onclick="closeNav()">
+          <p onclick="closeNav()"></p>
+        </div>
       </div>
     </div>
   </div>
