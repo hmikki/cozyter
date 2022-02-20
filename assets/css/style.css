@@ -913,7 +913,7 @@ background-color:rgba(0, 0, 0, 0.12) ;
   top: 50%;
 }
 .footer {
-  /*position: absolute;*/
+  position: absolute;
   padding: 15px 10px 1px 10px;
   bottom: 0;
   width: 100%;
