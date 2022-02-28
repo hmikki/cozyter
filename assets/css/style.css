@@ -1427,16 +1427,16 @@ button.dohave.send_btn{
   .footer.footer_index{
     position: relative !important;
   }
+  .footer p{
+    padding: 10px 0px;
+    font-size: 16px;
+  }
 }
 .nu.cart{
   top: -8px !important;
   right: unset !important;
   left: 30px !important;
   display: none;
-}
-.footer p{
-  padding: 10px 0px;
-  font-size: 16px;
 }
 #main{
   padding-bottom: 6px;
