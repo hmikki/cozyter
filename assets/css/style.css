@@ -1419,6 +1419,9 @@ button.dohave.send_btn{
 }
 
 @media screen and (max-width: 767px){
+  .mobile_hidden{
+    display: none;
+  }
   .third-nav {
     font-size: 24px;
   }
@@ -1450,4 +1453,7 @@ button.dohave.send_btn{
 }
 #main .row {
   align-items: center !important;
+}
+.cont-bush a:hover{
+  text-decoration: none;
 }

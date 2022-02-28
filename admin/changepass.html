@@ -39,32 +39,28 @@
     </nav>
     <!-- end nav bar -->
     <!-- inputs  -->
-    <div class="sec-input">
         <div class="container home">
-            <p>اعادة تعيين كلمة المرور</p>
-            <p class="addconf">قم بادخال كلمة المرور الجديدة</p>
-            <div class="input-group px-4">
-                <div class="input-group-prepend">
+            <div class="row justify-content-md-center justify-content-lg-center">
+            <form method="" action="" class="p-5">
+                <h5 class="text-right text-lg-center">اعادة تعيين كلمة المرور</h5>
+                <p class="text-right text-lg-center addconf">قم بادخال كلمة المرور الجديدة</p>
+                <div class="input-group p-0">
+                    <input type="text" style="font-family: FontAwesome;"  class="form-control" placeholder="&#xf023 كلمة المرور  " aria-label="Username"
+                           aria-describedby="basic-addon1">
                 </div>
-                <input type="text" style="font-family: FontAwesome;"  class="form-control" placeholder="&#xf023 كلمة المرور  " aria-label="Username"
-                    aria-describedby="basic-addon1">
-            </div>
-            <div class="input-group px-4">
-                <div class="input-group-prepend">
+                <div class="input-group p-0">
+                    <input type="text" style="font-family: FontAwesome;"  class="form-control" placeholder="&#xf023 التأكد من كلمة المرور  " aria-label="Username"
+                           aria-describedby="basic-addon1">
                 </div>
-                <input type="text" style="font-family: FontAwesome;"  class="form-control" placeholder="&#xf023 التأكد من كلمة المرور  " aria-label="Username"
-                    aria-describedby="basic-addon1">
+                <button class="btn sign-in2 m-0">إعادة التعيين</button>
+            </form>
             </div>
-            <div class="input-group px-1 mt-5">
-                <button class="btn sign-in2">إعادة التعيين</button>
-            </div>
-         
-
         </div>
-    </div>
     <!--End inputs  -->
 
-
+    <div class="footer mobile_hidden">
+        <p>جميع الحقوق محفوظة © 2021</p>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -78,7 +74,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../assets/js/scripts.js" type="application/javascript"></script>
 
+    <script>
+    feather.replace();
+  </script>
 </body>
 
 </html>
