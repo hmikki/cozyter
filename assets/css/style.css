@@ -195,6 +195,11 @@ h2 {
   }
   
 }
+.home{
+  box-shadow: 0 0 2rem 0 rgba(136,152,170,.15)!important;
+  border-radius: 5px;
+  border-top: 3px solid #d2d6de; padding: 1%;margin-top: 3%;
+}
 @media screen and (max-width: 992px) {
   .item img {
     height: 110px;
@@ -205,6 +210,13 @@ h2 {
     bottom: 0;
     left: 0;
     width: 100%;
+  }
+  .home{
+    box-shadow: unset !important;
+    border-radius: unset;
+    border-top: unset;
+    padding: unset;
+    margin-top: unset;
   }
 }
 
