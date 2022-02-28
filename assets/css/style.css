@@ -1426,3 +1426,10 @@ button.dohave.send_btn{
   padding: 10px 0px;
   font-size: 16px;
 }
+#main{
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+#main .row {
+  align-items: center !important;
+}
