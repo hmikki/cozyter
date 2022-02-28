@@ -37,38 +37,24 @@
     </nav>
     <!-- end nav bar -->
     <!-- inputs  -->
-    <div class="sec-input">
-        <div class="container">
-            <div class="row">
-                <div class="input-group">
-                    <p>التحقق من الملكية</p>
-                    <p class="addconf">قم بادخال رمز التحقق</p>
+        <div class="container home">
+            <div class="row justify-content-lg-center">
+                <form method="" action="" class="p-5">
+                    <p class="text-right text-lg-center">التحقق من الملكية</p>
+                    <p class="text-right text-lg-center addconf">قم بادخال رمز التحقق</p>
+
+                <div class="input-group m-0 p-0 text-center">
+                    <input class="box" type="text" placeholder="5">
+                    <input class="box" type="text" placeholder="5">
+                    <input class="box" type="text" placeholder="5">
+                    <input class="box" type="text" placeholder="5">
+                    <p class="timer">02:30</p>
                 </div>
-            <div class="cont-box">
-                <div class="box">
-                    <p>5</p>
-                </div>
-                <div class="box">
-                    <p>5</p>
-                </div>
-                <div class="box">
-                    <p>5</p>
-                </div>
-                <div class="box">
-                    <p>5</p>
-                </div>
-           
-            </div>
-            <p class="timer">02:30</p>
-            <div class="input-group p-0 ">
-                <button class="btn bg2 sign-in2" data-toggle="modal" data-target="#exampleModalCenter">تحقق</button>
-            </div>
-            <div class="input-group p-0">
-                <a href="confirm2.html" class="btn bg2 sign-in3">اعادة ارسال الرمز</a>
-            </div>
+                    <button class="m-0 mt-4 btn bg2 sign-in2" data-toggle="modal" data-target="#exampleModalCenter" onclick="document.getElementById('exampleModalCenter').show">تحقق</button>
+                    <a href="confirm2.html" class="btn bg2 sign-in3 m-0 mt-4 mb-4">اعادة ارسال الرمز</a>
+                </form>
             </div>
         </div>
-    </div>
     <!--End inputs  -->
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
