@@ -215,7 +215,7 @@ h2 {
     box-shadow: unset !important;
     border-radius: unset;
     border-top: unset;
-    padding: unset;
+    padding: 2%;
     margin-top: unset;
   }
 }
@@ -725,8 +725,8 @@ textarea.form-control {
   text-decoration: none;
 }
 .third-nav {
-  font-size: 24px;
-  height: 65px;
+  font-size: 28px;
+  /*height: 65px;*/
   border-bottom: 1px solid rgba(253, 124, 22, 0.5);
 }
 
@@ -1417,7 +1417,13 @@ button.dohave.send_btn{
     margin-bottom: 10px;
   }
 }
-@media screen and (min-width: 767px){
+
+@media screen and (max-width: 767px){
+  .third-nav {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px){
   .footer{
     clear: both;
     position: absolute;
