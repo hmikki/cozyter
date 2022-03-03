@@ -22,12 +22,35 @@
   <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
 </head>
 <body>
+<div id="mySidebar" class="sidebar">
+  <!--    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+  <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+  <a class="text-right" href="index2.html"><i data-feather="home"></i>
+    الرئيسية
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="build.html"><i data-feather="calendar"></i>
+    حجز الطاولات
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right d-flex align-items-center py-3" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right   d-flex align-items-center py-3" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي<span class="red">!</span></a>
+</div>
 <div class="third-nav" >
   <div class="container-fluid">
 
     <div class="row">
       <div class="text-center col-2 name">
-
+        <button class="openbtn" style="background:none !important;"  onclick="openNav()">
+          <i data-feather="align-justify"></i>
+        </button>
       </div>
       <div class="col-8 text-center" onclick="closeNav()">
         <h5 class="pt-4" > </h5>

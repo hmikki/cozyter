@@ -122,7 +122,7 @@ nav {
   background: #fd7c16;
 }
 .red {
-  color: #be1931;
+  color: red;
 }
 .nav-link,
 .nav-link i,
@@ -1426,7 +1426,24 @@ button.dohave.send_btn{
     font-size: 24px;
   }
 }
+button.btn.b-yellow {
+  float: left;
+  width: auto !important;
+  padding: 0px 22px !important;
+}
 @media screen and (min-width: 768px){
+  .nu{
+    right: 25%;
+    padding: 2px 7px;
+    font-size: 12px;
+  }
+  button.btn.b-yellow{
+    font-size: 18px;
+  }
+  #main{
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
   .footer{
     clear: both;
     position: absolute;
@@ -1441,15 +1458,16 @@ button.dohave.send_btn{
     font-size: 16px;
   }
 }
+@media screen and (min-width: 992px) {
+  .nu {
+    right: 30%;
+  }
+}
 .nu.cart{
   top: -8px !important;
   right: unset !important;
   left: 30px !important;
   display: none;
-}
-#main{
-  padding-bottom: 6px;
-  padding-top: 6px;
 }
 #main .row {
   align-items: center !important;
